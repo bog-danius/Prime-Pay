@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+
+    --primary-Color: #231656;
+    --secondary-Color: #625FFB;
+    --content-Color: #4E4E4E;
+    --background-Color: #F5F5F5;
+    --greybackground-Color: #F8F8F8;
+
+
+}
+
+.text_xxl {
+    font-size: 70px;
+}
+
+.text_xl {
+    font-size: 40px;
+}
+
+.text_lg {
+    font-size: 35px;
+}
+
+.text_md {
+    font-size: 30px;
+}
+
+.text_sm {
+    font-size: 28px;
+}
+
+
+.text_xxs {
+    font-size: 25px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px 260px;
+
+}
+
+.logo {
+    display: flex;
+    color: var(--primary-Color);
+    font-weight: 600;
+
+}
+
+.menu {
+    width: 400px;
+    height: 29px;
+    color: var(--primary-Color);
+    font-family: Inter, Arial, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+
+.menu-navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+
+
+}
+
+.login-button {
+    color: #fff;
+    width: 140px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 72px;
+    background: var(--primary-Color);
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: uppercase;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 61px 88px 12px 88px;
+
+    background-image: url('img/Background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 40px;
+    height: 1029px;
+    gap: 35px;
+}
+
+.main-text-logo {
+    margin-top: 130px;
+    color: var(--primary-Color);
+    text-align: center;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 116.7%;
+    max-width: 1000px;
+
+}
+
+.colorText {
+    color: #FFF;
+
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 116.7%;
+}
+
+.main-text {
+    color: var(--primary-Color);
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: capitalize;
+
+}
+
+.main-button {
+    color: #fff;
+    width: 220px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 72px;
+    background: var(--primary-Color);
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: uppercase;
+}
+
+.telephone {
+    box-sizing: border-box;
+    padding: 100px;
+    margin-top: 551px;
+    position: absolute;
+    background-image: url('img/telephone.png');
+    width: 619px;
+    height: 1102px;
+}
+
+.telephone-name {
+    max-width: 110px;
+}
+
+.title {
+    color: var(--secondary-Color);
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+}
+
+.subtitle {
+    color: #141414;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.telephone-logo {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 40px 40px
+}
+
+.telephone-logo-icon {
+    display: flex;
+    gap: 15px;
+}
