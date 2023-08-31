@@ -151,7 +151,7 @@ li {
 
 .telephone {
     box-sizing: border-box;
-    padding: 100px;
+    padding: 140px 160px 140px 130px;
     margin-top: 551px;
     position: absolute;
     background-image: url('img/telephone.png');
@@ -185,10 +185,342 @@ li {
     display: flex;
     justify-content: space-between;
 
-    margin: 40px 40px
+
 }
 
 .telephone-logo-icon {
     display: flex;
     gap: 15px;
+}
+
+.balance {
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 40px;
+    gap: 120px;
+
+}
+
+.acc {
+
+
+}
+
+.balance-name {
+    color: #141414;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+}
+
+.price {
+    color: #141414;
+
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+
+.acc-button {
+    border-radius: 12px;
+    background: #6C69FF;
+
+    box-shadow: 0 9px 27px 0 rgba(175, 175, 175, 0.31);
+
+    width: 111px;
+    height: 37px;
+
+    color: #FFF;
+    text-align: center;
+
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+}
+
+.card {
+    margin-top: 36px;
+    position: relative;
+
+
+}
+
+.card1 {
+    width: 318px;
+    height: 191px;
+    bottom: 10px;
+
+    transform: rotate(2.145deg);
+    flex-shrink: 0;
+    position: absolute;
+
+    border-radius: 28px;
+    background: #C4C4C4;
+    opacity: 50%;
+}
+
+.card2 {
+    width: 318px;
+    height: 191px;
+    bottom: 10px;
+
+    transform: rotate(-3.281deg);
+    flex-shrink: 0;
+    position: absolute;
+
+    border-radius: 28px;
+    background: #C4C4C4;
+}
+
+.card-prime-pay {
+    position: relative;
+    width: 320px;
+    height: 195px;
+
+    border-radius: 28px;
+    flex-shrink: 0;
+    background: url('img/Rectangle.png'), lightgray 50% / cover no-repeat;
+
+}
+
+.logo-card {
+    display: flex;
+    padding: 15px;
+    gap: 120px;
+}
+
+.logo-card-active {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.money-dollar {
+
+}
+
+.logo-card-border {
+    width: 33px;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    border: 1px solid #FFF;
+}
+
+.card-name {
+    color: #FFF;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 1px;
+}
+
+.check {
+    color: #2C2C2C;
+
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.check-money {
+    padding: 5px 15px;
+}
+
+.card-info {
+    display: flex;
+    padding: 45px 0 25px 15px;
+    gap: 95px;
+}
+
+.person {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card-holder {
+    color: #FFF;
+
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.name {
+    color: #FFF;
+
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.container {
+    margin-top: 22px;
+    width: 320px;
+    aspect-ratio: 5 / 3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 8px;
+}
+
+.block2 {
+    gap: 7px;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 16px;
+    background: #F3F3F3;
+    background-blend-mode: multiply;
+}
+
+.block1 {
+    gap: 7px;
+
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 16px;
+
+    background-blend-mode: multiply;
+
+
+    background: #FFF;
+    box-shadow: 0 6px 18px 0 rgba(91, 50, 255, 0.06);
+}
+
+.container-info1 {
+    width: 33px;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #6C69FF;
+}
+
+.container-info2 {
+    width: 33px;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #363636;
+}
+
+.container-text {
+    color: #141414;
+    text-align: center;
+
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+}
+.history{
+    margin-top: 24px;
+    display: flex;
+    gap: 213px;
+
+}
+.history-title{
+    color: #141414;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 23px;
+}
+.history-side-label{
+    display: flex;
+    gap: 6px;
+}
+.history-side-label-text{
+    color: #6C69FF;
+
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+}
+.transaction{
+    margin-top: 18px;
+}
+.transaction-list{
+    gap: 106px;
+    display: flex;
+
+
+    flex-shrink: 0;
+
+    border-radius: 14px;
+    background: linear-gradient(180deg, #EEE 0%, rgba(255, 255, 255, 0.00) 100%);
+    background-blend-mode: multiply;
+}
+.transaction-list-info{
+display: flex;
+padding: 15px;
+gap: 10px;
+}
+.transaction-list-info-pay{
+    color: #141414;
+
+
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+}
+.transaction-list-info-ico{
+    width: 37px;
+    aspect-ratio: 1 / 1 ;
+    border-radius: 8px;
+}
+.transaction-list-info-name{
+    color: #8F8F8F;
+
+
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+
+}
+.transaction-list-pay{
+align-items: end;
+    display: flex;
+    padding: 15px;
+
+    flex-direction: column;
+}
+.transaction-list-pay-money{
+
+}
+.transaction-list-pay-debited{
+
 }
