@@ -536,3 +536,64 @@ align-items: end;
     font-weight: 400;
     line-height: 18px;
 }
+.phone-menu{
+    display: flex;
+    padding: 15px;
+    gap: 49px;
+}
+.phone-menu-icon{
+    display: inline-block;
+    position: relative;
+}
+.icon{
+    transition: transform 0.2s ease-in-out;
+}
+.icon:hover{
+    transform: translateY(-15px);
+}
+.money{
+    position: absolute;
+left:450px;
+bottom:100px;
+}
+.money-card{
+    position: absolute;
+    right: 450px;
+    bottom: 50px;
+}
+.money-card-message{
+    position: absolute;
+    left:600px;
+    bottom:-400px;
+}
+.info{
+    display: flex;
+    gap:150px;
+    margin: 700px
+}
+.creat-acc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+.creat-acc-logo{
+    color: #231656;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 133.2%;
+    text-transform: capitalize;
+}
+.creat-acc-text{
+    color: #4E4E4E;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+    max-width:400px ;
+ }
