@@ -443,24 +443,28 @@ li {
     font-weight: 500;
     line-height: 18px;
 }
-.history{
+
+.history {
     margin-top: 24px;
     display: flex;
     gap: 213px;
 
 }
-.history-title{
+
+.history-title {
     color: #141414;
     font-size: 17px;
     font-style: normal;
     font-weight: 600;
     line-height: 23px;
 }
-.history-side-label{
+
+.history-side-label {
     display: flex;
     gap: 6px;
 }
-.history-side-label-text{
+
+.history-side-label-text {
     color: #6C69FF;
 
     font-size: 13px;
@@ -468,10 +472,12 @@ li {
     font-weight: 700;
     line-height: 23px;
 }
-.transaction{
+
+.transaction {
     margin-top: 18px;
 }
-.transaction-list{
+
+.transaction-list {
     gap: 106px;
     display: flex;
 
@@ -482,12 +488,14 @@ li {
     background: linear-gradient(180deg, #EEE 0%, rgba(255, 255, 255, 0.00) 100%);
     background-blend-mode: multiply;
 }
-.transaction-list-info{
-display: flex;
-padding: 15px;
-gap: 10px;
+
+.transaction-list-info {
+    display: flex;
+    padding: 15px;
+    gap: 10px;
 }
-.transaction-list-info-pay{
+
+.transaction-list-info-pay {
     color: #141414;
 
 
@@ -496,12 +504,14 @@ gap: 10px;
     font-weight: 500;
     line-height: 18px;
 }
-.transaction-list-info-ico{
+
+.transaction-list-info-ico {
     width: 37px;
-    aspect-ratio: 1 / 1 ;
+    aspect-ratio: 1 / 1;
     border-radius: 8px;
 }
-.transaction-list-info-name{
+
+.transaction-list-info-name {
     color: #8F8F8F;
 
 
@@ -511,14 +521,16 @@ gap: 10px;
     line-height: 18px;
 
 }
-.transaction-list-pay{
-align-items: end;
+
+.transaction-list-pay {
+    align-items: end;
     display: flex;
     padding: 15px;
 
     flex-direction: column;
 }
-.transaction-list-pay-money{
+
+.transaction-list-pay-money {
     color: #141414;
     text-align: center;
 
@@ -527,7 +539,8 @@ align-items: end;
     font-weight: 600;
     line-height: 18px;
 }
-.transaction-list-pay-debited{
+
+.transaction-list-pay-debited {
     color: #141414;
     text-align: center;
 
@@ -536,42 +549,51 @@ align-items: end;
     font-weight: 400;
     line-height: 18px;
 }
-.phone-menu{
+
+.phone-menu {
     display: flex;
     padding: 15px;
     gap: 49px;
 }
-.phone-menu-icon{
+
+.phone-menu-icon {
     display: inline-block;
     position: relative;
 }
-.icon{
+
+.icon {
     transition: transform 0.2s ease-in-out;
 }
-.icon:hover{
+
+.icon:hover {
     transform: translateY(-15px);
 }
-.money{
+
+.money {
     position: absolute;
-left:450px;
-bottom:100px;
+    left: 450px;
+    bottom: 100px;
 }
-.money-card{
+
+.money-card {
     position: absolute;
     right: 450px;
     bottom: 50px;
 }
-.money-card-message{
+
+.money-card-message {
     position: absolute;
-    left:600px;
-    bottom:-400px;
+    left: 600px;
+    bottom: -400px;
 }
-.info{
+
+.info {
     display: flex;
-    gap:150px;
+    gap: 150px;
     margin: 700px
 }
-.creat-acc{
+
+.creat-acc {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -579,7 +601,8 @@ bottom:100px;
     margin: auto;
 
 }
-.creat-acc-logo{
+
+.creat-acc-logo {
     color: #231656;
     font-size: 30px;
     font-style: normal;
@@ -587,7 +610,8 @@ bottom:100px;
     line-height: 133.2%;
     text-transform: capitalize;
 }
-.creat-acc-text{
+
+.creat-acc-text {
     color: #4E4E4E;
     text-align: center;
     font-size: 20px;
@@ -595,5 +619,85 @@ bottom:100px;
     font-weight: 400;
     line-height: 160%;
     text-transform: capitalize;
-    max-width:400px ;
- }
+    max-width: 400px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.context-logo {
+    color: #B5B5B5;
+
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 101.2%;
+}
+
+.title1 {
+    color: #231656;
+
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 101.2%;
+}
+
+.content-info1 {
+    color: #4E4E4E;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 32px */
+    text-transform: capitalize;
+}
+
+.content-video {
+    display: flex;
+
+
+}
+
+.content-video-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-video-logo {
+    color: #231656;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+
+.content-video-go {
+    gap: 7px;
+    display: flex;
+    align-items: center;
+
+    color: #7D5FFF;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+.content-bg{
+    display: flex;
+}
