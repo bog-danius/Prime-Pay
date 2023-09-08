@@ -10,6 +10,20 @@
 
 }
 
+button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: background-color 0.3s, transform 0.3s, font-size 0.3s;
+}
+
+button:active {
+
+
+    transform: scale(0.95);
+    font-size: 18px;
+}
+
 .text_xxl {
     font-size: 70px;
 }
@@ -71,7 +85,7 @@ a {
     text-decoration: none;
 }
 
-li {
+& li {
     display: inline-block;
 
 
@@ -632,6 +646,7 @@ li {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    max-width: 600px;
 
 }
 
@@ -667,12 +682,14 @@ li {
     display: flex;
 
 
+
 }
 
 .content-video-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 600px;
 }
 
 .content-video-logo {
@@ -698,6 +715,204 @@ li {
     line-height: 160%;
     text-transform: capitalize;
 }
-.content-bg{
+
+.content-bg {
     display: flex;
+    border-radius: 25px;
+    position: relative;
+    z-index: 0;
+    justify-content: center;
+
+}
+
+.content-bg-fon {
+
+    border-radius: 50px;
+}
+
+.telephone1 {
+    box-sizing: border-box;
+    position: absolute;
+    background-image: url('img/telephone.png');
+    width: 619px;
+    height: 1102px;
+}
+
+.telephone1-logo {
+    color: #141414;
+    text-align: center;
+    padding-top: 125px;
+
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.schedule {
+    padding-top: 41px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.graph-bottom {
+    position: relative;
+}
+
+.graph-top {
+    padding-right: 60px;
+    position: absolute;
+}
+
+.graph-arrow {
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 70px;
+
+}
+
+.text-schedule {
+    padding-top: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.schedule-logo {
+    color: #555;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.schedule-money {
+    color: #141414;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.schedule-button {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    padding-top: 29px;
+
+}
+
+.transfer {
+    color: #FFF;
+    text-align: center;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+
+    width: 174px;
+    height: 50px;
+
+    border-radius: 13px;
+    background: #7D5FFF;
+    box-shadow: 0 10px 30px 0 rgba(41, 0, 204, 0.31);
+}
+
+.refund {
+    color: #141414;
+    text-align: center;
+
+    width: 174px;
+    height: 50px;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+
+    border-radius: 13px;
+    border: 1px solid #5B32FF;
+}
+.history1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px ;
+    gap: 40px;
+}
+.history-title1{
+    color: #141414;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+.history-side-label1{
+    display: flex;
+    gap: 6px;
+}
+.history-side-label-text1{
+    color: #FF8C00;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+}
+.last-tranfered{
+
+}
+.user1{
+    display: flex;
+    justify-content: center;
+   gap: 100px;
+    margin-top: 34px;
+
+}
+.user-name{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.user-name-logo{
+    color: #141414;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+}
+.user-name-pay{
+    color: #555;
+
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.15px;
+}
+.user-price{
+    color: #FF2323;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+.user-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.phone-menu1{
+    display: flex;
+    padding: 80px;
+    gap: 49px;
+    justify-content: center;
+
 }
