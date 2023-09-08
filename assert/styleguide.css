@@ -916,3 +916,49 @@ a {
     justify-content: center;
 
 }
+.leveling{
+    display: flex;
+    justify-content: center;
+}
+.info-player{
+    display: flex;
+    margin-top: 80px;
+    gap: 60px;
+    padding-left:66px ;
+    justify-content: left;
+    align-items: center;
+    border-radius: 30px;
+    background: #F5F5F5;
+    width: 1320px;
+    height: 256px;
+}
+
+.info-player-number{
+    display: flex;
+    flex-direction: column;
+
+}
+.downloaded{
+    color: #231656;
+
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 101.2%;
+}
+.downloaded-info{
+    color: #4E4E4E;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 32px */
+    text-transform: capitalize;
+}
+.vl{
+    width: 1px;
+    height: 68px;
+    background: #D8D8D8;
+
+
+}
+
