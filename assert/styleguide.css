@@ -982,6 +982,9 @@ a {
 }
 .answers{
 margin: 385px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 .answers-logo{
     color: #B5B5B5;
@@ -997,18 +1000,18 @@ margin: 385px;
 
 
 
-.container {
+.container1 {
 
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 10px;
+    gap: 43px;
     padding: 20px;
     justify-items: center;
 }
 
-.block {
+.container1-block {
     display: flex;
     width: 438px;
     padding: 43px 45px;
@@ -1019,13 +1022,41 @@ margin: 385px;
     background: #F8F8F8;
     aspect-ratio: 1/1;
 
+    justify-content: center;
 
 
 
 
-    text-align: center;
+    text-align: left;
     line-height: 150px;
     font-size: 24px;
 }
+
+.container1-block1-logo{
+    color: #3D3269;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 101.2%;
+}
+.container1-block1-text{
+    color: #4E4E4E;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.container1-block-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container1-block-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
 
 
