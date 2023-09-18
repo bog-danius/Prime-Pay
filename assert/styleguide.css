@@ -604,10 +604,10 @@ a {
 .info {
     border-radius: 30px;
     background: #F5F5F5;
-    margin: 65px 87px ;
+    margin: 65px 87px;
     display: flex;
     gap: 150px;
-   padding: 700px;
+    padding: 700px;
 }
 
 .creat-acc {
@@ -980,13 +980,15 @@ a {
 
 
 }
-.answers{
-margin: 385px;
+
+.answers {
+    margin: 385px;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
-.answers-logo{
+
+.answers-logo {
     color: #B5B5B5;
     text-align: center;
     font-size: 55px;
@@ -994,10 +996,6 @@ margin: 385px;
     font-weight: 600;
     line-height: 101.2%;
 }
-
-
-
-
 
 
 .container1 {
@@ -1013,11 +1011,11 @@ margin: 385px;
 
 .container1-block {
     display: flex;
-    width: 438px;
+
     padding: 43px 45px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
+    gap: 20px;
     border-radius: 30px;
     background: #F8F8F8;
     aspect-ratio: 1/1;
@@ -1025,38 +1023,88 @@ margin: 385px;
     justify-content: center;
 
 
-
-
     text-align: left;
     line-height: 150px;
     font-size: 24px;
 }
 
-.container1-block1-logo{
+.container1-block1-logo {
     color: #3D3269;
     font-size: 35px;
     font-style: normal;
     font-weight: 500;
     line-height: 101.2%;
 }
-.container1-block1-text{
+
+.container1-block1-text {
     color: #4E4E4E;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 160%;
+    max-width: 340px;
 }
-.container1-block-image{
+
+.container1-block-image {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.container1-block-text{
+
+.container1-block-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+.circular-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 150px;
+}
 
+.circular-menu-item {
+    background: #FFF;
+    box-shadow: 0 12px 12px 0 rgba(176, 176, 176, 0.25);
+    color: #424242;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    position: absolute;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.circular-menu-item:hover {
+    background: #bfb9b9;
+}
 
+/* Positioning items around the central point */
+.circular-menu-item:nth-child(1) {
+    transform: translate(-50%, -50%) rotate(0deg) translate(100px) rotate(0deg);
+}
+
+.circular-menu-item:nth-child(2) {
+    transform: translate(-50%, -50%) rotate(72deg) translate(100px) rotate(-72deg);
+}
+
+.circular-menu-item:nth-child(3) {
+    transform: translate(-50%, -50%) rotate(144deg) translate(100px) rotate(-144deg);
+}
+
+.circular-menu-item:nth-child(4) {
+    transform: translate(-50%, -50%) rotate(216deg) translate(100px) rotate(-216deg);
+}
+
+.circular-menu-item:nth-child(5) {
+    transform: translate(-50%, -50%) rotate(288deg) translate(100px) rotate(-288deg);
+}
