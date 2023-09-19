@@ -1108,3 +1108,81 @@ a {
 .circular-menu-item:nth-child(5) {
     transform: translate(-50%, -50%) rotate(288deg) translate(100px) rotate(-288deg);
 }
+
+
+
+.testimonial{
+    background-image: url('img/fon2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 61px 88px 12px 88px;
+    padding: 130px;
+
+}
+.testimonial-text{
+    color: #FFF;
+    text-align: center;
+    max-width: 700px;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 101.2%;
+}
+.comment{
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 70px 105px;
+}
+.comment-player{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.comment-player-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px ;
+
+}
+.comment-player-photo{
+    border-radius: 50%;
+}
+.comment-player-name{
+    color: #3D3269;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 101.2%;
+}
+.comment-player-work{
+    color: #625FFB;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+.comment-grade{
+
+}
+.comment-text{
+    max-width: 700px;
+    color: #4E4E4E;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.horizontal-line {
+    height: 1px;
+    background: #CCC;
+    margin: 30px 0 30px 0;
+}
