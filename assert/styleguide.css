@@ -85,7 +85,7 @@ a {
     text-decoration: none;
 }
 
-& li {
+li {
     display: inline-block;
 
 
@@ -1110,8 +1110,7 @@ a {
 }
 
 
-
-.testimonial{
+.testimonial {
     background-image: url('img/fon2.png');
     background-size: cover;
     background-position: center;
@@ -1126,7 +1125,8 @@ a {
     padding: 130px;
 
 }
-.testimonial-text{
+
+.testimonial-text {
     color: #FFF;
     text-align: center;
     max-width: 700px;
@@ -1135,34 +1135,40 @@ a {
     font-weight: 600;
     line-height: 101.2%;
 }
-.comment{
+
+.comment {
     background-color: #ffffff;
     border-radius: 30px;
     padding: 70px 105px;
 }
-.comment-player{
+
+.comment-player {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.comment-player-info{
+
+.comment-player-info {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:15px ;
+    gap: 15px;
 
 }
-.comment-player-photo{
+
+.comment-player-photo {
     border-radius: 50%;
 }
-.comment-player-name{
+
+.comment-player-name {
     color: #3D3269;
     font-size: 35px;
     font-style: normal;
     font-weight: 500;
     line-height: 101.2%;
 }
-.comment-player-work{
+
+.comment-player-work {
     color: #625FFB;
     font-size: 20px;
     font-style: normal;
@@ -1170,10 +1176,12 @@ a {
     line-height: 160%;
     text-transform: capitalize;
 }
-.comment-grade{
+
+.comment-grade {
 
 }
-.comment-text{
+
+.comment-text {
     max-width: 700px;
     color: #4E4E4E;
     font-size: 25px;
@@ -1181,30 +1189,94 @@ a {
     font-weight: 400;
     line-height: 160%;
 }
+
 .horizontal-line {
     height: 1px;
     background: #CCC;
     margin: 30px 0 30px 0;
 }
-.awards-star{
 
-    padding: 38px 79px;
-
+.awards-star1 {
+    margin: 61px 88px 12px 88px;
 }
-.awards{
+
+.awards1 {
     display: flex;
-    flex-direction: column;
+    height: 285px;
+    padding: 30px 170px;
     justify-content: center;
-    align-items:center ;
+    align-items: center;
+    gap: 120px;
     border-radius: 30px;
     background: #F3F3F3;
-    padding: 40px 80px;
+    margin: auto;
 }
-.awards-img{
+
+.awards-star-best {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.awards-img {
     position: absolute;
 
 }
-.awards-text-logo{
+
+.awards-img1 {
+    position: absolute;
+}
+
+.awards-img2 {
+    position: relative;
+}
+
+.awards-text-position {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    margin-bottom: 53px;
+}
+
+.low-awards-star-img {
+    aspect-ratio: 1/1;
+    width: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.awards-img-position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.low-awards-star-text {
+    color: #303030;
+    text-align: center;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 91.7%;
+    text-transform: capitalize;
+    position: absolute;
+}
+
+.awards2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.awards-text-logo {
+
     color: #231656;
     text-align: center;
     font-size: 38px;
@@ -1213,7 +1285,8 @@ a {
     line-height: 142.2%;
     text-transform: uppercase;
 }
-.awards-text-info{
+
+.awards-text-info {
     color: #231656;
     text-align: center;
     font-size: 11px;
@@ -1221,7 +1294,8 @@ a {
     font-weight: 600;
     line-height: 142.2%;
 }
-.awards-best{
+
+.awards-best {
     color: #231656;
     text-align: center;
     font-size: 17px;
@@ -1230,7 +1304,8 @@ a {
     line-height: 148.7%;
     text-transform: uppercase;
 }
-.awards-best-year{
+
+.awards-best-year {
     color: #231656;
     font-size: 11px;
     font-style: normal;
@@ -1238,8 +1313,88 @@ a {
     line-height: 142.2%;
     text-transform: uppercase;
 }
-.horizontal-line-awards{
+
+.horizontal-line-awards {
     width: 77px;
     height: 1px;
-    background: #FF5940 ;
+    background: #FF5940;
+}
+
+.awards-text {
+    color: #303030;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 91.7%;
+    text-transform: capitalize;
+
+}
+
+.awards-button {
+    width: 163px;
+    height: 46px;
+    border-radius: 7px;
+    background: #7D5FFF;
+    color: #FFF;
+    text-align: center;
+
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 91.7%;
+    text-transform: uppercase;
+}
+
+.awards-year {
+    color: #303030;
+    text-align: center;
+
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 91.7%;
+    text-transform: capitalize;
+}
+
+.awards-star1 {
+    display: flex;
+    height: 285px;
+    padding: 38px 79px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+
+}
+
+.awards-rating1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 80px;
+
+}
+
+.rating {
+    color: #231656;
+    text-align: center;
+
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 116.7%;
+}
+
+.for-phone {
+    color: #231656;
+    text-align: center;
+
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: capitalize;
+
+
 }
