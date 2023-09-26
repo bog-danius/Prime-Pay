@@ -85,7 +85,7 @@ a {
     text-decoration: none;
 }
 
-& li {
+ li {
     display: inline-block;
 
 
@@ -1187,24 +1187,35 @@ a {
     margin: 30px 0 30px 0;
 }
 .awards-star{
-
-    padding: 38px 79px;
+    border-radius: 30px;
+    background: #F3F3F3;
+    display: flex;
+    gap: 73px;
+    padding: 40px 80px;
 
 }
-.awards{
+.awards1{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items:center ;
-    border-radius: 30px;
-    background: #F3F3F3;
-    padding: 40px 80px;
+
 }
-.awards-img{
- position: absolute;
-    left: ;
+.awards-img1{
+    position: absolute;
+}
+.awards-img2{
+    position: relative;
+}
+.awards2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+
 }
 .awards-text-logo{
+
     color: #231656;
     text-align: center;
     font-size: 38px;
@@ -1242,4 +1253,74 @@ a {
     width: 77px;
     height: 1px;
     background: #FF5940 ;
+}
+.awards-text{
+    color: #303030;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 91.7%;
+    text-transform: capitalize;
+
+}
+.awards-button{
+
+    border-radius: 7.026px;
+    background: #7D5FFF;
+    color: #FFF;
+    text-align: center;
+
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 91.7%;
+    text-transform: uppercase;
+}
+.awards-year{
+    color: #303030;
+    text-align: center;
+
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 91.7%;
+    text-transform: capitalize;
+}
+.awards-star1{
+    width: 100%;
+    background-color: #FFFFFF;
+        align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 61px 88px 12px 88px;
+    gap: 40px;
+
+}
+.awards-rating1{
+display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    padding: 40px 80px;
+
+}
+.rating{
+    color: #231656;
+    text-align: center;
+
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 116.7%;
+}
+.for-phone{
+    color: #231656;
+    text-align: center;
+
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: capitalize;
 }
