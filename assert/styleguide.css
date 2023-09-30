@@ -352,6 +352,8 @@ li {
 }
 
 .card-info {
+    justify-content: center;
+    align-items: center;
     display: flex;
     padding: 45px 0 25px 15px;
     gap: 95px;
@@ -360,6 +362,7 @@ li {
 .person {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 10px;
 }
 
@@ -1734,9 +1737,6 @@ display: grid;
 }
 .card-prime-pay1{
     position: relative;
-    width: 320px;
-    height: 195px;
-
     border-radius: 28px;
     flex-shrink: 0;
     background: url('img/card-balance.png'), lightgray 50% / cover no-repeat;
@@ -1751,6 +1751,7 @@ display: grid;
 }
 .check-money1{
     color: #2C2C2C;
+    padding-left: 15px;
     font-size: 62px;
     font-style: normal;
     font-weight: 700;
@@ -1764,6 +1765,38 @@ display: grid;
     line-height: normal;
     text-transform: uppercase;
 }
-.card-holder1{
+.card-holder1 {
+    color: #FFF;
+
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.logo-card-border1{
+
+        width: 50px;
+        aspect-ratio: 1 / 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        border: 1px solid #FFF;
 
 }
+.money-dollar1{
+    width: 25px;
+}
+.card-prime-pay2{
+    position: absolute;
+    margin-right: 50px;
+    border-radius: 28px;
+    flex-shrink: 0;
+    background: url('img/card-balance1.png'), lightgray 50% / cover no-repeat;
+}
+.card-chip{
+    width: 45px;
+    height: 60px;
+}
+

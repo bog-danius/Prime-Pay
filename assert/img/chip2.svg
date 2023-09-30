@@ -1,0 +1,39 @@
+<svg width="84" height="73" viewBox="0 0 84 73" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Chip">
+<g id="Chip_2">
+<rect id="Chip part" x="0.632812" y="0.616211" width="82.3682" height="72.0722" rx="10.296" fill="#FFB545"/>
+<g id="Chip part_2">
+<mask id="mask0_3_1619" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="84" height="73">
+<rect id="Chip part_3" x="0.976013" y="0.959412" width="81.6818" height="71.3858" rx="9.95283" fill="url(#paint0_linear_3_1619)" stroke="url(#paint1_linear_3_1619)" stroke-width="0.686402"/>
+</mask>
+<g mask="url(#mask0_3_1619)">
+<rect id="Chip part_4" x="27.233" y="25.4986" width="29.1721" height="22.3081" rx="2.57401" fill="#FFBC57" stroke="#2B2B2B" stroke-width="1.716"/>
+<rect id="Chip part_5" x="-49.9897" y="20.3512" width="80.6522" height="32.6041" rx="6.00602" fill="#FFAA29" stroke="url(#paint2_linear_3_1619)" stroke-width="1.716"/>
+<rect id="Chip part_6" x="52.9713" y="20.3512" width="80.6522" height="32.6041" rx="6.00602" fill="#FFAA29" stroke="url(#paint3_linear_3_1619)" stroke-width="1.716"/>
+</g>
+</g>
+<path id="Chip part_7" d="M41.8203 25.4983V0.616211" stroke="#292929" stroke-width="1.716"/>
+<path id="Chip part_8" d="M41.8203 72.6881V48.6641" stroke="#292929" stroke-width="1.716"/>
+<path id="Chip part_9" d="M30.6629 36.6533H0.632812" stroke="#292929" stroke-width="1.716"/>
+<path id="Chip part_10" d="M83.0053 36.6533H52.1172" stroke="#292929" stroke-width="1.716"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_3_1619" x1="41.8169" y1="0.616211" x2="41.8169" y2="72.6884" gradientUnits="userSpaceOnUse">
+<stop stop-color="#353535"/>
+<stop offset="1" stop-color="#3A3A3A"/>
+</linearGradient>
+<linearGradient id="paint1_linear_3_1619" x1="41.8169" y1="0.616211" x2="41.8169" y2="72.6884" gradientUnits="userSpaceOnUse">
+<stop stop-color="#333333"/>
+<stop offset="1" stop-color="#A0A6A6"/>
+</linearGradient>
+<linearGradient id="paint2_linear_3_1619" x1="-9.66355" y1="19.4932" x2="-9.66355" y2="53.8133" gradientUnits="userSpaceOnUse">
+<stop stop-color="#363636"/>
+<stop offset="1" stop-color="#313131"/>
+</linearGradient>
+<linearGradient id="paint3_linear_3_1619" x1="93.2974" y1="19.4932" x2="93.2974" y2="53.8133" gradientUnits="userSpaceOnUse">
+<stop stop-color="#363636"/>
+<stop offset="1" stop-color="#313131"/>
+</linearGradient>
+</defs>
+</svg>
