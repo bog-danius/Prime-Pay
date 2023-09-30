@@ -1618,3 +1618,152 @@ li {
     margin-bottom: 20px;
 
 }
+.registration-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100% ;
+    margin-bottom: 90px;
+}
+.registration-footer-text{
+    color: #4E4E4E;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+    max-width: 600px;
+}
+
+.theme-switch {
+    position: relative;
+    display: inline-block;
+    width: 175px;
+    height: 54px;
+}
+
+.theme-switch input[type="checkbox"] {
+    display: none;
+}
+
+.theme-switch label {
+    border-radius: 500px;
+    border: 1px solid #686868;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.theme-switch label::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 78px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.theme-switch input[type="checkbox"]:checked + label {
+    border-radius: 500px;
+    background: #FFC173;
+}
+
+.theme-switch input[type="checkbox"]:checked + label::before {
+    transform: translateX(92px);
+}
+.creat-card-main{
+    background-color: #303030;
+    padding: 145px 260px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.creat-card-info{
+display: flex;
+    flex-direction: column;
+    gap: 26px;
+
+}
+.creat-card-info-logo{
+    color: #8C8C8C;
+    max-width: 500px;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 101.2%;
+}
+.creat-card-logo-name{
+    color: #FFF;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 101.2%;
+}
+.creat-card-logo-text{
+
+    max-width: 520px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+.card-info-like{
+display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-gap: 3px;
+    width: 521px;
+}
+.card-info-like-text{
+    display: flex;
+    gap: 7px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 249.5%;
+    text-transform: capitalize;
+}
+.card-prime-pay1{
+    position: relative;
+    width: 320px;
+    height: 195px;
+
+    border-radius: 28px;
+    flex-shrink: 0;
+    background: url('img/card-balance.png'), lightgray 50% / cover no-repeat;
+}
+.card-name1{
+    color: #FFF;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 2px;
+}
+.check-money1{
+    color: #2C2C2C;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+.name1{
+    color: #FFF;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.card-holder1{
+
+}
