@@ -1560,12 +1560,14 @@ li {
     font-weight: 600;
     line-height: 0;
 }
-.registration-position{
+
+.registration-position {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .registration-acc {
     color: #555;
     text-align: center;
@@ -1586,13 +1588,15 @@ li {
     letter-spacing: -0.155px;
     text-decoration-line: underline;
 }
-.registration-prime{
+
+.registration-prime {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 26px;
 }
-.registration-acc1{
+
+.registration-acc1 {
     color: #555;
 
 
@@ -1602,11 +1606,13 @@ li {
     line-height: 22px;
     letter-spacing: -0.155px;
 }
-.registration-acc1-text{
+
+.registration-acc1-text {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .code-input-container {
     display: flex;
 }
@@ -1621,14 +1627,16 @@ li {
     margin-bottom: 20px;
 
 }
-.registration-footer{
+
+.registration-footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width:100% ;
+    width: 100%;
     margin-bottom: 90px;
 }
-.registration-footer-text{
+
+.registration-footer-text {
     color: #4E4E4E;
     font-size: 20px;
     font-style: normal;
@@ -1681,20 +1689,23 @@ li {
 .theme-switch input[type="checkbox"]:checked + label::before {
     transform: translateX(92px);
 }
-.creat-card-main{
+
+.creat-card-main {
     background-color: #303030;
     padding: 145px 260px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
-.creat-card-info{
-display: flex;
+
+.creat-card-info {
+    display: flex;
     flex-direction: column;
     gap: 26px;
 
 }
-.creat-card-info-logo{
+
+.creat-card-info-logo {
     color: #8C8C8C;
     max-width: 500px;
     font-size: 55px;
@@ -1702,14 +1713,16 @@ display: flex;
     font-weight: 600;
     line-height: 101.2%;
 }
-.creat-card-logo-name{
+
+.creat-card-logo-name {
     color: #FFF;
     font-size: 55px;
     font-style: normal;
     font-weight: 600;
     line-height: 101.2%;
 }
-.creat-card-logo-text{
+
+.creat-card-logo-text {
 
     max-width: 520px;
     color: #FFF;
@@ -1719,13 +1732,15 @@ display: flex;
     line-height: 160%;
     text-transform: capitalize;
 }
-.card-info-like{
-display: grid;
-    grid-template-columns: repeat(2 , 1fr);
+
+.card-info-like {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 3px;
     width: 521px;
 }
-.card-info-like-text{
+
+.card-info-like-text {
     display: flex;
     gap: 7px;
     color: #FFF;
@@ -1735,13 +1750,16 @@ display: grid;
     line-height: 249.5%;
     text-transform: capitalize;
 }
-.card-prime-pay1{
+
+.card-prime-pay1 {
     position: relative;
     border-radius: 28px;
     flex-shrink: 0;
     background: url('img/card-balance.png'), lightgray 50% / cover no-repeat;
+    z-index: 1;
 }
-.card-name1{
+
+.card-name1 {
     color: #FFF;
     font-size: 31px;
     font-style: normal;
@@ -1749,7 +1767,8 @@ display: grid;
     line-height: 60px;
     letter-spacing: 2px;
 }
-.check-money1{
+
+.check-money1 {
     color: #2C2C2C;
     padding-left: 15px;
     font-size: 62px;
@@ -1757,7 +1776,8 @@ display: grid;
     font-weight: 700;
     line-height: 60px;
 }
-.name1{
+
+.name1 {
     color: #FFF;
     font-size: 21px;
     font-style: normal;
@@ -1765,6 +1785,7 @@ display: grid;
     line-height: normal;
     text-transform: uppercase;
 }
+
 .card-holder1 {
     color: #FFF;
 
@@ -1774,29 +1795,200 @@ display: grid;
     line-height: normal;
     text-transform: uppercase;
 }
-.logo-card-border1{
 
-        width: 50px;
-        aspect-ratio: 1 / 1;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 6px;
-        border: 1px solid #FFF;
+.logo-card-border1 {
+
+    width: 50px;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    border: 1px solid #FFF;
 
 }
-.money-dollar1{
+
+.money-dollar1 {
     width: 25px;
 }
-.card-prime-pay2{
+
+.card-prime-pay2 {
     position: absolute;
-    margin-right: 50px;
+    left: 70px;
+    top: 70px;
+    z-index: 12314;
     border-radius: 28px;
     flex-shrink: 0;
     background: url('img/card-balance1.png'), lightgray 50% / cover no-repeat;
 }
-.card-chip{
+
+.card-chip {
     width: 45px;
     height: 60px;
 }
 
+.card-info-balance {
+    position: relative;
+}
+
+.pricing {
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 55px;
+}
+
+.pricing-logo {
+    color: #B5B5B5;
+    text-align: center;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 101.2%;
+    max-width: 700px;
+
+}
+
+.choice-pricing {
+    display: flex;
+    gap: 45px;
+    flex-shrink: 0;
+
+}
+
+.mode {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 360px;
+    padding: 40px 40px;
+    border-radius: 30px;
+    background: #F2F2F2;
+}
+
+.mode-logo {
+    display: flex;
+    justify-content: space-between;
+    background-image: url('img/mode-bg.png');
+    width: 348px;
+    height: 147px;
+    flex-shrink: 0;
+    border-radius: 15px;
+
+}
+.mode-logo1 {
+    display: flex;
+    justify-content: space-between;
+    background-image: url('img/mode-bg2.png');
+    width: 348px;
+    height: 147px;
+    flex-shrink: 0;
+    border-radius: 15px;
+
+}
+
+
+.mode-logo-text {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    color: #3D3269;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.2%;
+}
+
+.mode-logo-text2 {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.2%;
+
+}
+
+.mode-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mode-cost {
+
+    color: #3D3269;
+
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 101.2%;
+}
+
+
+.mode-term {
+    color: #3D3269;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 101.2%;
+}
+
+.mode-catalog {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 74px 8px 36px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 15px;
+    background: #ffffff;
+}
+
+.mode-catalog-text {
+    color: #4E4E4E;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 263%;
+}
+
+.mode-pricing-button {
+    display: flex;
+    padding: 25px 111px 26px 111px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 72px;
+    background: #D7D7D7;
+    color: #231656;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: uppercase;
+}
+
+.mode-pricing-button2 {
+    display: flex;
+    padding: 25px 111px 26px 111px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 72px;
+    background: #231656;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #FFF;
+}
+.tic{
+    display: flex;
+    flex-direction: column;
+
+}
