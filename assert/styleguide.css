@@ -1539,6 +1539,7 @@ li {
 .check-mark {
     display: flex;
     gap: 10px;
+    margin-top: 10px;
 }
 
 .registration-button {
@@ -1991,4 +1992,46 @@ li {
     display: flex;
     flex-direction: column;
 
+}
+.email{
+    background-image: url('img/email-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 130px 80px;
+    margin: 61px 565px 12px 565px;
+    gap: 100px;
+    border-radius: 50px;
+}
+.email-text-logo{
+    color: #231656;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 101.2%;
+    max-width: 600px;
+}
+.email-reg{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.email-button{
+    display: flex;
+    padding: 25px 59px 26px 59px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 72px;
+    background: #231656;
+    color: #FFF;=
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: uppercase;
 }
