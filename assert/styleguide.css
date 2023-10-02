@@ -57,12 +57,41 @@
 }
 
 
+.phone-container-action {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.phone-container-action-item {
+    border-radius: 16px;
+    background: #F3F3F3;
+    align-items: center;
+}
+.phone-container-action-item_active {
+    background-color: white;
+}
+.phone-container-action-item-icon {
+    position: relative;
+    width: 20px;
+}
+.phone-container-action-item-icon-wrap {
+    width: 33px;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #363636;
+}
+.phone-container-action-item-icon-wrap_active {
+    background-color: #6C69FF;
+}
 
-
-
-
-
-
+.phone-container-action-item-label {
+    color: #141414;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+}
 
 
 

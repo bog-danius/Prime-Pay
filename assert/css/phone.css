@@ -1,0 +1,19 @@
+.container-widget-phone {
+    background-image: url('./../img/phone.png');
+    width: 463px;
+    height: 960px;
+}
+.widget-phone {
+    display: flex;
+    flex-direction: column;
+    padding: 75px 60px 60px 60px;
+    height: 100%;
+    box-sizing: border-box;
+}
+.widget-phone-main {
+    flex-grow: 1;
+}
+.widget-phone-footer {
+    display: flex;
+    justify-content: space-around;
+}

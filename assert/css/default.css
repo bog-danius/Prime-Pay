@@ -39,11 +39,20 @@
     display: flex;
     flex-direction: column;
 }
+.grid {
+    display: grid;
+}
 .HIDE {
     display: none;
 }
 .margin_auto {
     margin: auto;
+}
+.gap_7 {
+    gap: 7px;
+}
+.gap_8 {
+    gap: 8px;
 }
 .gap_9 {
     gap: 9px;
@@ -85,5 +94,8 @@ li {
     max-width: 1747px;
 }
 
+.padding_20 {
+    padding: 20px;
+}
 
 
