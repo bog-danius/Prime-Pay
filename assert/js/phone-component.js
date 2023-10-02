@@ -25,5 +25,4 @@ class Phone extends HTMLElement {
     }
 
 }
-
 customElements.define("widget-phone", Phone); // (2)
