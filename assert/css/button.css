@@ -1,0 +1,31 @@
+.button_md {
+    height: 70px;
+    border-radius: 72px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    padding: 0 42px;
+}
+.button_lg {
+    height: 80px;
+    border-radius: 72px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    padding: 0 48px;
+}
+.button_primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: background-color 0.3s, transform 0.3s, font-size 0.3s;
+}
+button:active {
+    transform: scale(0.95);
+}

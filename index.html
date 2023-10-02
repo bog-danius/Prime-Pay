@@ -4,732 +4,744 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link href="assert/styleguide.css" rel="stylesheet">
+    <link href="assert/css/default.css" rel="stylesheet">
+    <link href="assert/css/button.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;0,600;1,500&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&family=Jost:ital,wght@0,200;0,300;0,400;0,600;1,500&family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-<header class="header">
-    <div class="logo">
-        <img class="logo-photo" src="./assert/img/Icon.svg">
-        <p class="text_md">PrimePay.</p>
+
+<header class="header flex wrap-container">
+    <div class="logo flex gap_9">
+        <img  src="./assert/img/Icon.svg" alt = "Logotype">
+        <p class="text_md text_bold color_primary">PrimePay.</p>
     </div>
-    <nav class="menu">
-        <ul class="menu-navigation">
-            <li><a href="#">About Us </a></li>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Blog</a></li>
+    <nav>
+        <ul class="flex gap_25">
+            <li><a href="#" class = "menu-label font-family_inter">About Us </a></li>
+            <li><a href="#" class = "menu-label font-family_inter">Features</a></li>
+            <li><a href="#" class = " menu-label font-family_inter">Pricing</a></li>
+            <li><a href="#" class = "menu-label font-family_inter">Blog</a></li>
         </ul>
     </nav>
-    <button class="login-button">login</button>
+    <button class="button_md button_primary">login</button>
 </header>
-<main class="main">
-    <p class="main-text-logo">Ready To Launch Your Online <span class="colorText">Payment</span> App</p>
-    <p class="main-text">A simple yet modern solution to showcase your app</p>
-    <button class="main-button">Get Started</button>
-    <div class="money">
-        <img src="assert/img/money.png">
-    </div>
-    <div class="money-card">
-        <img src="assert/img/Icon1.png">
-    </div>
-    <div class="money-card-message">
-        <img src="assert/img/Icon2.png">
-    </div>
+<main>
+    <div class = "section-start wrap-container wrap-container_lg">
+        <p class="section-start-title margin_auto color_primary text_bold">Ready To Launch Your Online <span class="color_light">Payment</span> App</p>
+        <p class="section-start-info color_primary text_bold">A simple yet modern solution to showcase your app</p>
+        <button class="button_primary button_lg">Get Started</button>
 
-    <div class="telephone">
-        <div class="telephone-logo">
-            <div class="telephone-logo-icon">
-                <img src="assert/img/User.svg">
-                <p class="telephone-name"><span class="title">Hi, John!</span>
-                    <span
-                            class="subtitle"> Welcome Back</span></p>
+        <div class = "HIDE">
+            <div class="money">
+                <img src="assert/img/money.png">
             </div>
-            <img src="assert/img/Notify.svg">
-        </div>
-        <div class="balance">
-            <div class="acc">
-                <p class="balance-name">Account Balance</p>
-                <p class="price">$5345.90</p>
+            <div class="money-card">
+                <img src="assert/img/Icon1.png">
             </div>
-            <button class="acc-button">Add Card</button>
-        </div>
-        <div class="card">
-            <div class="card1"></div>
-            <div class="card2"></div>
-            <div class="card-prime-pay">
-                <div class="logo-card">
-                    <div class="logo-card-active">
-                        <div class="logo-card-border">
-                            <img class="money-dollar" src="assert/img/Dollar.svg">
+            <div class="money-card-message">
+                <img src="assert/img/Icon2.png">
+            </div>
+
+            <div class="telephone">
+                <div class="telephone-logo">
+                    <div class="telephone-logo-icon">
+                        <img src="assert/img/User.svg">
+                        <p class="telephone-name"><span class="title">Hi, John!</span>
+                            <span
+                                    class="subtitle"> Welcome Back</span></p>
+                    </div>
+                    <img src="assert/img/Notify.svg">
+                </div>
+                <div class="balance">
+                    <div class="acc">
+                        <p class="balance-name">Account Balance</p>
+                        <p class="price">$5345.90</p>
+                    </div>
+                    <button class="acc-button">Add Card</button>
+                </div>
+                <div class="card">
+                    <div class="card1"></div>
+                    <div class="card2"></div>
+                    <div class="card-prime-pay">
+                        <div class="logo-card">
+                            <div class="logo-card-active">
+                                <div class="logo-card-border">
+                                    <img class="money-dollar" src="assert/img/Dollar.svg">
+                                </div>
+                                <p class="card-name">PrimePay</p>
+                            </div>
+                            <img src="assert/img/Chip.svg">
                         </div>
-                        <p class="card-name">PrimePay</p>
+
+                        <div class="check">
+                            <p class="check-money">$5345.90</p>
+                        </div>
+                        <div class="card-info">
+                            <div class="person">
+                                <p class="card-holder">Card holder</p>
+                                <p class="name">Alien Pixels</p>
+                            </div>
+                            <div>
+                                <img src="assert/img/Logo1.svg">
+                            </div>
+                        </div>
+
                     </div>
-                    <img src="assert/img/Chip.svg">
+                </div>
+                <div class="container">
+                    <div class="block1">
+                        <div class="container-info1">
+                            <img src="assert/img/Icon1.svg">
+                        </div>
+                        <p class="container-text">Send / Receive</p>
+                    </div>
+                    <div class="block2">
+                        <div class="container-info2">
+                            <img src="assert/img/Icon2.svg">
+                        </div>
+                        <p class="container-text">Transfer Money</p>
+                    </div>
+                    <div class="block2">
+                        <div class="container-info2">
+                            <img src="assert/img/Icon3.svg">
+                        </div>
+                        <p class="container-text">Recharge & Bills</p>
+                    </div>
+                    <div class="block2">
+                        <div class="container-info2">
+                            <img src="assert/img/Icon4.svg">
+                        </div>
+                        <p class="container-text">Voucher & Rewards</p>
+                    </div>
+                </div>
+                <div class="history">
+                    <p class="history-title">History</p>
+                    <a class="history-side-label" href="#">
+                        <p class="history-side-label-text">See All</p>
+                        <img src="assert/img/Icon5.svg">
+                    </a>
+                </div>
+                <div class="transaction">
+                    <div class="transaction-list">
+                        <div class="transaction-list-info">
+                            <img class="transaction-list-info-ico" src="assert/img/infopay.png">
+                            <div>
+                                <p class="transaction-list-info-pay">Paid to</p>
+                                <p class="transaction-list-info-name">John Bosko 9958</p>
+                            </div>
+                        </div>
+                        <div class="transaction-list-pay">
+                            <p class="transaction-list-pay-money">$56</p>
+                            <p class="transaction-list-pay-debited">Debited</p>
+                        </div>
+                    </div>
+
                 </div>
 
-                <div class="check">
-                    <p class="check-money">$5345.90</p>
+                <div class="phone-menu">
+                    <a class="phone-menu-icon" href="#">
+                        <img class="icon" src="assert/img/Icon10.svg">
+                    </a>
+                    <a class="phone-menu-icon" href="#">
+                        <img class="icon" src="assert/img/Icon9.svg">
+                    </a>
+                    <a class="phone-menu-icon" href="#">
+                        <img class="icon" src="assert/img/Icon8.svg">
+                    </a>
+                    <a class="phone-menu-icon" href="#">
+                        <img class="icon" src="assert/img/Icon7.svg">
+                    </a>
+                    <a class="phone-menu-icon" href="#">
+                        <img class="icon" src="assert/img/Icon6.svg">
+                    </a>
+
                 </div>
-                <div class="card-info">
-                    <div class="person">
-                        <p class="card-holder">Card holder</p>
-                        <p class="name">Alien Pixels</p>
+            </div>
+        </div>
+
+    </div>
+    <div class = "section-how-we-work wrap-container wrap-container_lg flex gap_55">
+        <div class="section-how-we-work-card">
+            <img src="assert/img/Icon3.png" alt = "card-icon">
+            <p class="section-how-we-work-card-title color_primary">Creat an account</p>
+            <p class="section-how-we-work-card-info color_gray">Aspernatur sit adipisci quaerat unde Redug Lagre dolor sit amets consectetus. Agencies
+                define their new
+                business</p>
+        </div>
+        <div class="section-how-we-work-card">
+            <img src="assert/img/Icon4.png" alt = "card-icon">
+            <p class="section-how-we-work-card-title color_primary">Attach bank accounts</p>
+            <p class="section-how-we-work-card-info">Aspernatur sit adipisci quaerat unde Redug Lagre dolor sit amets consectetus. Agencies
+                define their new
+                business</p>
+        </div>
+        <div class="section-how-we-work-card">
+            <img src="assert/img/Icon5.png" alt = "card-icon">
+            <p class="section-how-we-work-card-title color_primary">Send money</p>
+            <p class="section-how-we-work-card-info">Aspernatur sit adipisci quaerat unde Redug Lagre dolor sit amets consectetus. Agencies
+                define their new
+                business</p>
+        </div>
+    </div>
+
+
+
+    <div class="content">
+        <div class="content-text">
+            <p class="context-logo">
+                Send and receive <span class="title1">Payments </span> easily
+            </p>
+            <p class="content-info1">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+            </p>
+            <p class="content-info1">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.
+            </p>
+            <div class="content-video">
+                <img src="assert/img/PlayButton.svg">
+                <div class="content-video-text">
+                    <p class="content-video-logo">Lorem ipsum dolor sit</p>
+                    <a class="content-video-go" href="#">Amet, consectetur
+                        <img src="assert/img/Vector.svg">
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="content-bg">
+            <img class="content-bg-fon" src="assert/img/Photo.png">
+            <div class="telephone1">
+                <p class="telephone1-logo">My Wallets</p>
+                <div class="schedule">
+                    <img class="graph-bottom" src="assert/img/Ellipse1.png">
+                    <img class="graph-top" src="assert/img/Ellipse2.png">
+                    <img class="graph-arrow" src="assert/img/Ellipse3.svg">
+
+                </div>
+                <div class="text-schedule">
+                    <p class="schedule-logo">This Month Spends</p>
+                    <p class="schedule-money">$2745.90</p>
+                </div>
+                <div class="schedule-button">
+                    <button class="transfer">Add Balance</button>
+                    <button class="refund">Withdraw</button>
+                </div>
+                <div class="history1">
+                    <p class="history-title1">Last Transfered</p>
+                    <a class="history-side-label1" href="#">
+                        <p class="history-side-label-text1">See All</p>
+                        <img src="assert/img/Icon12.svg">
+                    </a>
+                </div>
+                <div class="last-tranfered">
+
+
+                    <div class="user1">
+                        <div class="user-info">
+                            <img src="assert/img/Box.png">
+                            <div class="user-name">
+                                <p class="user-name-logo">Peterberg</p>
+                                <p class="user-name-pay">Transfered to Bank</p>
+                            </div>
+                        </div>
+                        <div class="user-price">-$19.30</div>
                     </div>
+
+
+                    <div class="user1">
+                        <div class="user-info">
+                            <img src="assert/img/Box1.png">
+                            <div class="user-name">
+                                <p class="user-name-logo">Mark Henry</p>
+                                <p class="user-name-pay">Transfered to Payee</p>
+                            </div>
+                        </div>
+                        <div class="user-price">-$13.30</div>
+                    </div>
+
+                    <div class="user1">
+                        <div class="user-info">
+                            <img src="assert/img/Box2.png">
+                            <div class="user-name">
+                                <p class="user-name-logo">Pinto Salary</p>
+                                <p class="user-name-pay">Transfered to Bank</p>
+                            </div>
+                        </div>
+                        <div class="user-price">-$13.60</div>
+                    </div>
+                </div>
+                <div class="phone-menu1">
+                    <a class="phone-menu-icon" href="#">
+                        <img class="icon" src="assert/img/Icon10.svg">
+                    </a>
+                    <a class="phone-menu-icon" href="#">
+                        <img class="icon" src="assert/img/Icon9.svg">
+                    </a>
+                    <a class="phone-menu-icon" href="#">
+                        <img class="icon" src="assert/img/Icon14.svg">
+                    </a>
+                    <a class="phone-menu-icon" href="#">
+                        <img class="icon" src="assert/img/Icon13.svg">
+                    </a>
+                    <a class="phone-menu-icon" href="#">
+                        <img class="icon" src="assert/img/Icon6.svg">
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="leveling">
+        <div class="info-player">
+            <div class="info-player-number">
+                <p class="downloaded">12.000 +</p>
+                <p class="downloaded-info">Downloaded</p>
+            </div>
+            <div class="vl"></div>
+            <div class="info-player-number">
+                <p class="downloaded">$10 M</p>
+                <p class="downloaded-info">Transactions</p>
+            </div>
+            <div class="vl"></div>
+            <div class="info-player-number">
+                <p class="downloaded">1.000 +</p>
+                <p class="downloaded-info">Feedback</p>
+            </div>
+        </div>
+    </div>
+    <div class="answers">
+        <p class="answers-logo">Why it is <br>Worth Choosing <span class="title1"> PrimePay.</span></p>
+        <div class="container1">
+            <div class="container1-block">
+                <p class="container1-block1-logo">Integration other</p>
+                <p class="container1-block1-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt Laoreet non curabitur gravida sagittis aliquam bibendum.</p>
+            </div>
+            <div class="container1-block">
+                <div class="circular-menu">
+                    <a class="circular-menu-item" href="#"><img src="assert/img/mail.svg"></a>
+                    <a class="circular-menu-item" href="#"><img src="assert/img/playmarket.svg"></a>
+                    <a class="circular-menu-item" href="#"><img src="assert/img/google.svg"></a>
+                    <a class="circular-menu-item" href="#"><img src="assert/img/slack.svg"></a>
+                    <a class="circular-menu-item" href="#"><img src="assert/img/telegram.svg"></a>
+                </div>
+            </div>
+            <div class="container1-block">
+                <div class="container1-block-image">
+                    <img src="assert/img/Image4.png">
+                </div>
+
+                <div class="container1-block-text">
+                    <p class="container1-block1-logo">Safe & Security</p>
+                    <p class="container1-block1-text">Easily integrate with all your need favorite tools through and
+                        APIsing
+                        including automatic</p>
+                </div>
+            </div>
+            <div class="container1-block">
+                <div class="container1-block-image">
+                    <img src="assert/img/Image3.png">
+                </div>
+                <div class="container1-block-text">
+                    <p class="container1-block1-logo">Merchant account</p>
+                    <p class="container1-block1-text">Easily integrate with all your need favorite tools through and
+                        APIsing
+                        including automatic</p>
+                </div>
+            </div>
+            <div class="container1-block">
+                <div class="container1-block-image">
+                    <img src="assert/img/Image1.png">
+                </div>
+
+                <div class="container1-block-text">
+                    <p class="container1-block1-logo">Merchant account</p>
+                    <p class="container1-block1-text">Easily integrate with all your need favorite tools through and
+                        APIsing
+                        including automatic</p>
+                </div>
+            </div>
+
+            <div class="container1-block">
+                <div class="container1-block-image">
+                    <img src="assert/img/Image2.png">
+                </div>
+                <div class="container1-block-text">
+                    <p class="container1-block1-logo">Fast get paid</p>
+                    <p class="container1-block1-text">Easily integrate with all your need favorite tools through and
+                        APIsing
+                        including automatic</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="testimonial">
+        <p class="testimonial-text">“Say goodbye to clutter and <span class="title1">bounce rates.</span></p>
+        <div class="comment">
+            <div class="comment-player">
+                <div class="comment-player-info">
+                    <img class="comment-player-photo" src="assert/img/avatar3.png">
                     <div>
-                        <img src="assert/img/Logo1.svg">
+                        <p class="comment-player-name">Nattasha</p>
+                        <p class="comment-player-work">Designer</p>
                     </div>
-                </div>
 
+                </div>
+                <div class="comment-grade">
+                    <img src="assert/img/star.svg">
+                </div>
             </div>
+            <div class="horizontal-line"></div>
+            <p class="comment-text">“Our team was able to teach themselves primchat in a day.it's like using a shared email
+                inboxust way more
+                robust looking.”Primchat was the modern what we were looking.</p>
         </div>
-        <div class="container">
-            <div class="block1">
-                <div class="container-info1">
-                    <img src="assert/img/Icon1.svg">
-                </div>
-                <p class="container-text">Send / Receive</p>
-            </div>
-            <div class="block2">
-                <div class="container-info2">
-                    <img src="assert/img/Icon2.svg">
-                </div>
-                <p class="container-text">Transfer Money</p>
-            </div>
-            <div class="block2">
-                <div class="container-info2">
-                    <img src="assert/img/Icon3.svg">
-                </div>
-                <p class="container-text">Recharge & Bills</p>
-            </div>
-            <div class="block2">
-                <div class="container-info2">
-                    <img src="assert/img/Icon4.svg">
-                </div>
-                <p class="container-text">Voucher & Rewards</p>
-            </div>
-        </div>
-        <div class="history">
-            <p class="history-title">History</p>
-            <a class="history-side-label" href="#">
-                <p class="history-side-label-text">See All</p>
-                <img src="assert/img/Icon5.svg">
-            </a>
-        </div>
-        <div class="transaction">
-            <div class="transaction-list">
-                <div class="transaction-list-info">
-                    <img class="transaction-list-info-ico" src="assert/img/infopay.png">
+
+        <div class="comment">
+            <div class="comment-player">
+                <div class="comment-player-info">
+                    <img class="comment-player-photo" src="assert/img/avatar2.png">
                     <div>
-                        <p class="transaction-list-info-pay">Paid to</p>
-                        <p class="transaction-list-info-name">John Bosko 9958</p>
+                        <p class="comment-player-name">Joe Cook</p>
+                        <p class="comment-player-work">Developer</p>
                     </div>
                 </div>
-                <div class="transaction-list-pay">
-                    <p class="transaction-list-pay-money">$56</p>
-                    <p class="transaction-list-pay-debited">Debited</p>
+                <div class="comment-grade">
+                    <img src="assert/img/star.svg">
                 </div>
             </div>
-
+            <div class="horizontal-line"></div>
+            <p class="comment-text">“Our team was able to teach themselves primchat in a day.it's like using a shared email
+                inboxust way more
+                robust looking.”Primchat was the modern what we were looking.</p>
         </div>
 
-        <div class="phone-menu">
-            <a class="phone-menu-icon" href="#">
-                <img class="icon" src="assert/img/Icon10.svg">
-            </a>
-            <a class="phone-menu-icon" href="#">
-                <img class="icon" src="assert/img/Icon9.svg">
-            </a>
-            <a class="phone-menu-icon" href="#">
-                <img class="icon" src="assert/img/Icon8.svg">
-            </a>
-            <a class="phone-menu-icon" href="#">
-                <img class="icon" src="assert/img/Icon7.svg">
-            </a>
-            <a class="phone-menu-icon" href="#">
-                <img class="icon" src="assert/img/Icon6.svg">
-            </a>
-
-        </div>
-    </div>
-
-
-</main>
-<div class="info">
-    <div class="creat-acc">
-        <img src="assert/img/Icon3.png">
-        <p class="creat-acc-logo">Creat an account</p>
-        <p class="creat-acc-text">Aspernatur sit adipisci quaerat unde Redug Lagre dolor sit amets consectetus. Agencies
-            define their new
-            business</p>
-    </div>
-    <div class="creat-acc">
-        <img src="assert/img/Icon4.png">
-        <p class="creat-acc-logo">Attach bank accounts</p>
-        <p class="creat-acc-text">Aspernatur sit adipisci quaerat unde Redug Lagre dolor sit amets consectetus. Agencies
-            define their new
-            business</p>
-    </div>
-    <div class="creat-acc">
-        <img src="assert/img/Icon5.png">
-        <p class="creat-acc-logo">Send money</p>
-        <p class="creat-acc-text">Aspernatur sit adipisci quaerat unde Redug Lagre dolor sit amets consectetus. Agencies
-            define their new
-            business</p>
-    </div>
-
-</div>
-<div class="content">
-    <div class="content-text">
-        <p class="context-logo">
-            Send and receive <span class="title1">Payments </span> easily
-        </p>
-        <p class="content-info1">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-        </p>
-        <p class="content-info1">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua.
-        </p>
-        <div class="content-video">
-            <img src="assert/img/PlayButton.svg">
-            <div class="content-video-text">
-                <p class="content-video-logo">Lorem ipsum dolor sit</p>
-                <a class="content-video-go" href="#">Amet, consectetur
-                    <img src="assert/img/Vector.svg">
-                </a>
-            </div>
-        </div>
-
-
-    </div>
-    <div class="content-bg">
-        <img class="content-bg-fon" src="assert/img/Photo.png">
-        <div class="telephone1">
-            <p class="telephone1-logo">My Wallets</p>
-            <div class="schedule">
-                <img class="graph-bottom" src="assert/img/Ellipse1.png">
-                <img class="graph-top" src="assert/img/Ellipse2.png">
-                <img class="graph-arrow" src="assert/img/Ellipse3.svg">
-
-            </div>
-            <div class="text-schedule">
-                <p class="schedule-logo">This Month Spends</p>
-                <p class="schedule-money">$2745.90</p>
-            </div>
-            <div class="schedule-button">
-                <button class="transfer">Add Balance</button>
-                <button class="refund">Withdraw</button>
-            </div>
-            <div class="history1">
-                <p class="history-title1">Last Transfered</p>
-                <a class="history-side-label1" href="#">
-                    <p class="history-side-label-text1">See All</p>
-                    <img src="assert/img/Icon12.svg">
-                </a>
-            </div>
-            <div class="last-tranfered">
-
-
-                <div class="user1">
-                    <div class="user-info">
-                        <img src="assert/img/Box.png">
-                        <div class="user-name">
-                            <p class="user-name-logo">Peterberg</p>
-                            <p class="user-name-pay">Transfered to Bank</p>
-                        </div>
+        <div class="comment">
+            <div class="comment-player">
+                <div class="comment-player-info">
+                    <img class="comment-player-photo" src="assert/img/avatar1.png">
+                    <div>
+                        <p class="comment-player-name">Jessica Jobs</p>
+                        <p class="comment-player-work">Product Designer at Uber.INC</p>
                     </div>
-                    <div class="user-price">-$19.30</div>
+
+
                 </div>
-
-
-                <div class="user1">
-                    <div class="user-info">
-                        <img src="assert/img/Box1.png">
-                        <div class="user-name">
-                            <p class="user-name-logo">Mark Henry</p>
-                            <p class="user-name-pay">Transfered to Payee</p>
-                        </div>
-                    </div>
-                    <div class="user-price">-$13.30</div>
-                </div>
-
-                <div class="user1">
-                    <div class="user-info">
-                        <img src="assert/img/Box2.png">
-                        <div class="user-name">
-                            <p class="user-name-logo">Pinto Salary</p>
-                            <p class="user-name-pay">Transfered to Bank</p>
-                        </div>
-                    </div>
-                    <div class="user-price">-$13.60</div>
+                <div class="comment-grade">
+                    <img src="assert/img/star.svg">
                 </div>
             </div>
-            <div class="phone-menu1">
-                <a class="phone-menu-icon" href="#">
-                    <img class="icon" src="assert/img/Icon10.svg">
-                </a>
-                <a class="phone-menu-icon" href="#">
-                    <img class="icon" src="assert/img/Icon9.svg">
-                </a>
-                <a class="phone-menu-icon" href="#">
-                    <img class="icon" src="assert/img/Icon14.svg">
-                </a>
-                <a class="phone-menu-icon" href="#">
-                    <img class="icon" src="assert/img/Icon13.svg">
-                </a>
-                <a class="phone-menu-icon" href="#">
-                    <img class="icon" src="assert/img/Icon6.svg">
-                </a>
-
-            </div>
+            <div class="horizontal-line"></div>
+            <p class="comment-text">“Our team was able to teach themselves primchat in a day.it's like using a shared email
+                inboxust way more
+                robust looking.”Primchat was the modern what we were looking.</p>
         </div>
 
-    </div>
-
-</div>
-<div class="leveling">
-    <div class="info-player">
-        <div class="info-player-number">
-            <p class="downloaded">12.000 +</p>
-            <p class="downloaded-info">Downloaded</p>
-        </div>
-        <div class="vl"></div>
-        <div class="info-player-number">
-            <p class="downloaded">$10 M</p>
-            <p class="downloaded-info">Transactions</p>
-        </div>
-        <div class="vl"></div>
-        <div class="info-player-number">
-            <p class="downloaded">1.000 +</p>
-            <p class="downloaded-info">Feedback</p>
-        </div>
-    </div>
-</div>
-<div class="answers">
-    <p class="answers-logo">Why it is <br>Worth Choosing <span class="title1"> PrimePay.</span></p>
-    <div class="container1">
-        <div class="container1-block">
-            <p class="container1-block1-logo">Integration other</p>
-            <p class="container1-block1-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt Laoreet non curabitur gravida sagittis aliquam bibendum.</p>
-        </div>
-        <div class="container1-block">
-            <div class="circular-menu">
-                <a class="circular-menu-item" href="#"><img src="assert/img/mail.svg"></a>
-                <a class="circular-menu-item" href="#"><img src="assert/img/playmarket.svg"></a>
-                <a class="circular-menu-item" href="#"><img src="assert/img/google.svg"></a>
-                <a class="circular-menu-item" href="#"><img src="assert/img/slack.svg"></a>
-                <a class="circular-menu-item" href="#"><img src="assert/img/telegram.svg"></a>
-            </div>
-        </div>
-        <div class="container1-block">
-            <div class="container1-block-image">
-                <img src="assert/img/Image4.png">
-            </div>
-
-            <div class="container1-block-text">
-                <p class="container1-block1-logo">Safe & Security</p>
-                <p class="container1-block1-text">Easily integrate with all your need favorite tools through and
-                    APIsing
-                    including automatic</p>
-            </div>
-        </div>
-        <div class="container1-block">
-            <div class="container1-block-image">
-                <img src="assert/img/Image3.png">
-            </div>
-            <div class="container1-block-text">
-                <p class="container1-block1-logo">Merchant account</p>
-                <p class="container1-block1-text">Easily integrate with all your need favorite tools through and
-                    APIsing
-                    including automatic</p>
-            </div>
-        </div>
-        <div class="container1-block">
-            <div class="container1-block-image">
-                <img src="assert/img/Image1.png">
-            </div>
-
-            <div class="container1-block-text">
-                <p class="container1-block1-logo">Merchant account</p>
-                <p class="container1-block1-text">Easily integrate with all your need favorite tools through and
-                    APIsing
-                    including automatic</p>
-            </div>
-        </div>
-
-        <div class="container1-block">
-            <div class="container1-block-image">
-                <img src="assert/img/Image2.png">
-            </div>
-            <div class="container1-block-text">
-                <p class="container1-block1-logo">Fast get paid</p>
-                <p class="container1-block1-text">Easily integrate with all your need favorite tools through and
-                    APIsing
-                    including automatic</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="testimonial">
-    <p class="testimonial-text">“Say goodbye to clutter and <span class="title1">bounce rates.</span></p>
-    <div class="comment">
-        <div class="comment-player">
-            <div class="comment-player-info">
-                <img class="comment-player-photo" src="assert/img/avatar3.png">
-                <div>
-                    <p class="comment-player-name">Nattasha</p>
-                    <p class="comment-player-work">Designer</p>
-                </div>
-
-            </div>
-            <div class="comment-grade">
-                <img src="assert/img/star.svg">
-            </div>
-        </div>
-        <div class="horizontal-line"></div>
-        <p class="comment-text">“Our team was able to teach themselves primchat in a day.it's like using a shared email
-            inboxust way more
-            robust looking.”Primchat was the modern what we were looking.</p>
-    </div>
-
-    <div class="comment">
-        <div class="comment-player">
-            <div class="comment-player-info">
-                <img class="comment-player-photo" src="assert/img/avatar2.png">
-                <div>
-                    <p class="comment-player-name">Joe Cook</p>
-                    <p class="comment-player-work">Developer</p>
-                </div>
-            </div>
-            <div class="comment-grade">
-                <img src="assert/img/star.svg">
-            </div>
-        </div>
-        <div class="horizontal-line"></div>
-        <p class="comment-text">“Our team was able to teach themselves primchat in a day.it's like using a shared email
-            inboxust way more
-            robust looking.”Primchat was the modern what we were looking.</p>
-    </div>
-
-    <div class="comment">
-        <div class="comment-player">
-            <div class="comment-player-info">
-                <img class="comment-player-photo" src="assert/img/avatar1.png">
-                <div>
-                    <p class="comment-player-name">Jessica Jobs</p>
-                    <p class="comment-player-work">Product Designer at Uber.INC</p>
-                </div>
-
-
-            </div>
-            <div class="comment-grade">
-                <img src="assert/img/star.svg">
-            </div>
-        </div>
-        <div class="horizontal-line"></div>
-        <p class="comment-text">“Our team was able to teach themselves primchat in a day.it's like using a shared email
-            inboxust way more
-            robust looking.”Primchat was the modern what we were looking.</p>
-    </div>
-
-</div>
-<div class="awards-star1">
-    <div class="awards1">
-        <div class="awards-star-best">
-            <img class="awards-img1" src="assert/img/awards.png">
-
-            <p class="awards-text-logo">Best</p>
-            <p class="awards-text-info">Online pay <br> Mobile app Services</p>
-            <div class="horizontal-line-awards"></div>
-            <p class="awards-best">2022 Q2 </p>
-            <p class="awards-best-year">Awards</p>
-        </div>
-        <div class="awards2">
-            <img class="awards-img2" src="assert/img/awards-star.png">
-            <div class="awards-text-position">
-                <div class="awards-img-position">
-                    <img class="low-awards-star-img" src="assert/img/low-awards-star.png">
-                    <p class="low-awards-star-text">G2</p>
-                </div>
-
-                <p class="awards-text">Best Mobile app</p>
-                <button class="awards-button">Spring</button>
-                <p class="awards-year">202X</p>
-            </div>
-
-        </div>
     </div>
     <div class="awards-star1">
-        <div class="awards-rating1">
-            <p class="rating">4.5/5</p>
-            <img src="assert/img/star.svg">
-            <p class="for-phone">On the iOS App Store</p>
-        </div>
-        <div class="awards-rating1">
-            <p class="rating">4.8/5</p>
-            <img src="assert/img/star.svg">
-            <p class="for-phone">On the Android Play Store.</p>
-        </div>
-    </div>
+        <div class="awards1">
+            <div class="awards-star-best">
+                <img class="awards-img1" src="assert/img/awards.png">
 
-</div>
+                <p class="awards-text-logo">Best</p>
+                <p class="awards-text-info">Online pay <br> Mobile app Services</p>
+                <div class="horizontal-line-awards"></div>
+                <p class="awards-best">2022 Q2 </p>
+                <p class="awards-best-year">Awards</p>
+            </div>
+            <div class="awards2">
+                <img class="awards-img2" src="assert/img/awards-star.png">
+                <div class="awards-text-position">
+                    <div class="awards-img-position">
+                        <img class="low-awards-star-img" src="assert/img/low-awards-star.png">
+                        <p class="low-awards-star-text">G2</p>
+                    </div>
 
-<div class="registration">
-
-    <p class="registration-logo">Feels great in low-light Mood for your <span class="title1">eye Protection</span></p>
-    <div class="registration-main">
-        <div class="telephone2">
-            <div class="telephone2-header">
-                <img src="assert/img/back-arrow.svg">
-                <img src="assert/img/help.svg">
-            </div>
-            <div class="telephone2-logo">
-                <img class="telephone2-logo-photo" src="assert/img/registration-logo.svg">
-                <p class="telephone2-logo-name">Signup</p>
-                <p class="telephone2-logo-text">Create an account so you can manage your financial status</p>
-            </div>
-            <div class="registration-container">
-                <input class="registration-password" id="username" name="username" required type="text">
-                <label for="username">Username</label>
-            </div>
-
-            <div class="registration-container">
-                <input class="registration-password" id="email" name="email" required type="email">
-                <label for="email">Email id</label>
-            </div>
-
-            <div class="registration-container">
-                <input class="registration-password" id="password" name="password" required type="password">
-                <label for="password">Password</label>
-            </div>
-            <div class="check-mark">
-                <input class="checkbox" id="checkbox" name="myCheckbox" type="checkbox" value="checked">
-                <p class="checkbox-text">I hereby agree to the <span class="title2"> terms of services </span>and <span
-                        class="title2">privacy policy</span></p>
-            </div>
-            <button class="registration-button">Create an Account</button>
-            <p class="registration-acc">Already have an account? <span class="title3">Sign in</span></p>
-        </div>
-        <div class="telephone2">
-            <div class="telephone2-header">
-                <img src="assert/img/back-arrow.svg">
-                <img src="assert/img/help.svg">
-            </div>
-            <div class="registration-position">
-                <div class="registration-prime">
-                    <img src="assert/img/registration-primepay.png">
+                    <p class="awards-text">Best Mobile app</p>
+                    <button class="awards-button">Spring</button>
+                    <p class="awards-year">202X</p>
                 </div>
 
+            </div>
+        </div>
+        <div class="awards-star1">
+            <div class="awards-rating1">
+                <p class="rating">4.5/5</p>
+                <img src="assert/img/star.svg">
+                <p class="for-phone">On the iOS App Store</p>
+            </div>
+            <div class="awards-rating1">
+                <p class="rating">4.8/5</p>
+                <img src="assert/img/star.svg">
+                <p class="for-phone">On the Android Play Store.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="registration">
+
+        <p class="registration-logo">Feels great in low-light Mood for your <span class="title1">eye Protection</span></p>
+        <div class="registration-main">
+            <div class="telephone2">
+                <div class="telephone2-header">
+                    <img src="assert/img/back-arrow.svg">
+                    <img src="assert/img/help.svg">
+                </div>
                 <div class="telephone2-logo">
-                    <p class="telephone2-logo-name">Forget Password?</p>
-                    <p class="telephone2-logo-text">Please enter your <span class="title2"> phone number</span> or <span
-                            class="title2">email address</span> to reset the password</p>
+                    <img class="telephone2-logo-photo" src="assert/img/registration-logo.svg">
+                    <p class="telephone2-logo-name">Signup</p>
+                    <p class="telephone2-logo-text">Create an account so you can manage your financial status</p>
                 </div>
                 <div class="registration-container">
-                    <input class="registration-password" id="phone" name="tel" required type="tel">
-                    <label for="password">phone</label>
+                    <input class="registration-password" id="username" name="username" required type="text">
+                    <label for="username">Username</label>
                 </div>
-                <button class="registration-button">Continue</button>
-                <div class="registration-acc1-text">
-                    <p class="registration-acc1">We sent a verification code to your phone
-                        number</p>
+
+                <div class="registration-container">
+                    <input class="registration-password" id="email" name="email" required type="email">
+                    <label for="email">Email id</label>
+                </div>
+
+                <div class="registration-container">
+                    <input class="registration-password" id="password" name="password" required type="password">
+                    <label for="password">Password</label>
+                </div>
+                <div class="check-mark">
+                    <input class="checkbox" id="checkbox" name="myCheckbox" type="checkbox" value="checked">
+                    <p class="checkbox-text">I hereby agree to the <span class="title2"> terms of services </span>and <span
+                            class="title2">privacy policy</span></p>
+                </div>
+                <button class="registration-button">Create an Account</button>
+                <p class="registration-acc">Already have an account? <span class="title3">Sign in</span></p>
+            </div>
+            <div class="telephone2">
+                <div class="telephone2-header">
+                    <img src="assert/img/back-arrow.svg">
+                    <img src="assert/img/help.svg">
+                </div>
+                <div class="registration-position">
+                    <div class="registration-prime">
+                        <img src="assert/img/registration-primepay.png">
+                    </div>
+
+                    <div class="telephone2-logo">
+                        <p class="telephone2-logo-name">Forget Password?</p>
+                        <p class="telephone2-logo-text">Please enter your <span class="title2"> phone number</span> or <span
+                                class="title2">email address</span> to reset the password</p>
+                    </div>
+                    <div class="registration-container">
+                        <input class="registration-password" id="phone" name="tel" required type="tel">
+                        <label for="password">phone</label>
+                    </div>
+                    <button class="registration-button">Continue</button>
+                    <div class="registration-acc1-text">
+                        <p class="registration-acc1">We sent a verification code to your phone
+                            number</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="telephone2">
+                <div class="telephone2-header">
+                    <img src="assert/img/back-arrow.svg">
+                    <img src="assert/img/help.svg">
+                </div>
+                <div class="registration-position">
+                    <div class="registration-prime">
+                        <img src="assert/img/registration-primepay.png">
+                    </div>
+
+                    <div class="telephone2-logo">
+                        <p class="telephone2-logo-name">Enter a Code</p>
+                        <p class="telephone2-logo-text">We sent a verification code to your phone number <span
+                                class="title2"> (+22) 123 546...</span>
+                    </div>
+                    <div class="code-input-container">
+                        <input class="code-input" maxlength="1" size="1" type="text">
+                        <input class="code-input" maxlength="1" size="1" type="text">
+                        <input class="code-input" maxlength="1" size="1" type="text">
+                        <input class="code-input" maxlength="1" size="1" type="text">
+                    </div>
+                    <button class="registration-button">Continue</button>
+                    <div class="registration-acc1-text">
+                        <p><span class="title3">Resend Code</span></p>
+                    </div>
                 </div>
 
             </div>
-
-
         </div>
-        <div class="telephone2">
-            <div class="telephone2-header">
-                <img src="assert/img/back-arrow.svg">
-                <img src="assert/img/help.svg">
+        <div class="registration-footer">
+            <p class="registration-footer-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt dolore magna aliqua.</p>
+            <div class="theme-switch">
+                <input type="checkbox" id="theme-toggle">
+                <label for="theme-toggle"></label>
             </div>
-            <div class="registration-position">
-                <div class="registration-prime">
-                    <img src="assert/img/registration-primepay.png">
-                </div>
-
-                <div class="telephone2-logo">
-                    <p class="telephone2-logo-name">Enter a Code</p>
-                    <p class="telephone2-logo-text">We sent a verification code to your phone number <span
-                            class="title2"> (+22) 123 546...</span>
-                </div>
-                <div class="code-input-container">
-                    <input class="code-input" maxlength="1" size="1" type="text">
-                    <input class="code-input" maxlength="1" size="1" type="text">
-                    <input class="code-input" maxlength="1" size="1" type="text">
-                    <input class="code-input" maxlength="1" size="1" type="text">
-                </div>
-                <button class="registration-button">Continue</button>
-                <div class="registration-acc1-text">
-                    <p><span class="title3">Resend Code</span></p>
-                </div>
-            </div>
-
         </div>
     </div>
-    <div class="registration-footer">
-        <p class="registration-footer-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt dolore magna aliqua.</p>
-        <div class="theme-switch">
-            <input type="checkbox" id="theme-toggle">
-            <label for="theme-toggle"></label>
+    <div class="creat-card-main">
+
+        <div class="creat-card-info">
+            <p class="creat-card-info-logo">Credit is the Fastest Mobile<span class="creat-card-logo-name"> Banking Solution.</span>
+            </p>
+            <p class="creat-card-logo-text">Feels great in low-light Mood for your eye Protection Lorem ipsum dolor sit
+                amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+            <div class="card-info-like">
+                <p class="card-info-like-text"><img src="./assert/img/like.svg"/>All your transaction </p>
+                <p class="card-info-like-text"><img src="assert/img/like.svg"/>Control your Budget </p>
+                <p class="card-info-like-text"><img src="assert/img/like.svg"/>Receipts transaction</p>
+                <p class="card-info-like-text"><img src="assert/img/like.svg"/>Find your expenses</p>
+                <p class="card-info-like-text"><img src="assert/img/like.svg"/>Experience Smart App</p>
+
+            </div>
+        </div>
+        <div class="card-info-balance">
+            <div class="card4">
+                <div class="card-prime-pay1">
+                    <div class="logo-card">
+                        <div class="logo-card-active">
+                            <div class="logo-card-border1">
+                                <img class="money-dollar1" src="assert/img/Dollar.svg">
+                            </div>
+                            <p class="card-name1">PrimePay</p>
+                        </div>
+                        <img src="assert/img/Chip.svg">
+                    </div>
+
+                    <div class="check">
+                        <p class="check-money1">$5345.90</p>
+                    </div>
+                    <div class="card-info">
+                        <div class="person">
+                            <p class="card-holder1">Card holder</p>
+                            <p class="name1">Alien Pixels</p>
+                        </div>
+                        <div>
+                            <img src="assert/img/Logo1.svg">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="card3">
+                <div class="card-prime-pay2">
+                    <div class="logo-card">
+                        <div class="logo-card-active">
+                            <div class="logo-card-border1">
+                                <img class="money-dollar1" src="assert/img/Dollar.svg">
+                            </div>
+                            <p class="card-name1">PrimePay</p>
+                        </div>
+                        <img src="assert/img/chip2.svg" class="card-chip">
+                    </div>
+
+                    <div class="check">
+                        <p class="check-money1">$6345.90</p>
+                    </div>
+                    <div class="card-info">
+                        <div class="person">
+                            <p class="card-holder1">Card holder</p>
+                            <p class="name1">Alien Pixels</p>
+                        </div>
+                        <div>
+                            <img src="assert/img/Logo1.svg">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="pricing">
+        <p class="pricing-logo">Our payment services <span class="title1">worldwide</span></p>
+        <div class="choice-pricing">
+            <div class="mode">
+                <div class="mode-logo">
+                    <p class="mode-logo-text">Basic</p>
+                    <img src="assert/img/tic1.svg">
+                </div>
+                <div class="mode-price">
+                    <p class="mode-cost">$10.00</p>
+                    <p class="mode-term">Month</p>
+                </div>
+                <div class="mode-catalog">
+                    <p class="mode-catalog-text">Modern Design</p>
+                    <p class="mode-catalog-text">Easy to Customize</p>
+                    <p class="mode-catalog-text">Quickly Set Up A Website</p>
+                    <p class="mode-catalog-text">Another Feature</p>
+                    <p class="mode-catalog-text">24/7 Customer Support</p>
+                </div>
+                <button class="mode-pricing-button">Get Started</button>
+            </div>
+            <div class="mode">
+                <div class="mode-logo1">
+                    <p class="mode-logo-text2">Standard</p>
+
+                    <img src="assert/img/tic2.svg">
+
+
+                </div>
+                <div class="mode-price">
+                    <p class="mode-cost">$19.00</p>
+                    <p class="mode-term">Month</p>
+                </div>
+                <div class="mode-catalog">
+                    <p class="mode-catalog-text">Modern Design</p>
+                    <p class="mode-catalog-text">Easy to Customize</p>
+                    <p class="mode-catalog-text">Quickly Set Up A Website</p>
+                    <p class="mode-catalog-text">Another Feature</p>
+                    <p class="mode-catalog-text">24/7 Customer Support</p>
+                </div>
+                <button class="mode-pricing-button2">Get Started</button>
+            </div>
+            <div class="mode">
+                <div class="mode-logo">
+                    <p class="mode-logo-text">Premium</p>
+
+                    <img src="assert/img/tic3.svg">
+
+
+                </div>
+                <div class="mode-price">
+                    <p class="mode-cost">$35.00</p>
+                    <p class="mode-term">Month</p>
+                </div>
+                <div class="mode-catalog">
+                    <p class="mode-catalog-text">Modern Design</p>
+                    <p class="mode-catalog-text">Easy to Customize</p>
+                    <p class="mode-catalog-text">Quickly Set Up A Website</p>
+                    <p class="mode-catalog-text">Another Feature</p>
+                    <p class="mode-catalog-text">24/7 Customer Support</p>
+                </div>
+                <button class="mode-pricing-button">Get Started</button>
+            </div>
         </div>
     </div>
-</div>
-<div class="creat-card-main">
-
-    <div class="creat-card-info">
-        <p class="creat-card-info-logo">Credit is the Fastest Mobile<span class="creat-card-logo-name"> Banking Solution.</span>
+    <div class="email">
+        <p class="email-text-logo">Take control of your personal <span class="creat-card-logo-name">finances today</span>
         </p>
-        <p class="creat-card-logo-text">Feels great in low-light Mood for your eye Protection Lorem ipsum dolor sit
-            amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
-        <div class="card-info-like">
-            <p class="card-info-like-text"><img src="./assert/img/like.svg"/>All your transaction </p>
-            <p class="card-info-like-text"><img src="assert/img/like.svg"/>Control your Budget </p>
-            <p class="card-info-like-text"><img src="assert/img/like.svg"/>Receipts transaction</p>
-            <p class="card-info-like-text"><img src="assert/img/like.svg"/>Find your expenses</p>
-            <p class="card-info-like-text"><img src="assert/img/like.svg"/>Experience Smart App</p>
+        <div class="email-reg">
+            <div class="registration-container">
+                <input class="registration-password" id="emailuser" name="username" required type="text">
+                <label for="emailuser">Enter your email</label>
+            </div>
+            <button class="email-button">Subscribe</button>
 
         </div>
     </div>
-    <div class="card-info-balance">
-        <div class="card4">
-            <div class="card-prime-pay1">
-                <div class="logo-card">
-                    <div class="logo-card-active">
-                        <div class="logo-card-border1">
-                            <img class="money-dollar1" src="assert/img/Dollar.svg">
-                        </div>
-                        <p class="card-name1">PrimePay</p>
-                    </div>
-                    <img src="assert/img/Chip.svg">
-                </div>
-
-                <div class="check">
-                    <p class="check-money1">$5345.90</p>
-                </div>
-                <div class="card-info">
-                    <div class="person">
-                        <p class="card-holder1">Card holder</p>
-                        <p class="name1">Alien Pixels</p>
-                    </div>
-                    <div>
-                        <img src="assert/img/Logo1.svg">
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <div class="card3">
-            <div class="card-prime-pay2">
-                <div class="logo-card">
-                    <div class="logo-card-active">
-                        <div class="logo-card-border1">
-                            <img class="money-dollar1" src="assert/img/Dollar.svg">
-                        </div>
-                        <p class="card-name1">PrimePay</p>
-                    </div>
-                    <img src="assert/img/chip2.svg" class="card-chip">
-                </div>
-
-                <div class="check">
-                    <p class="check-money1">$6345.90</p>
-                </div>
-                <div class="card-info">
-                    <div class="person">
-                        <p class="card-holder1">Card holder</p>
-                        <p class="name1">Alien Pixels</p>
-                    </div>
-                    <div>
-                        <img src="assert/img/Logo1.svg">
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-</div>
-<div class="pricing">
-    <p class="pricing-logo">Our payment services <span class="title1">worldwide</span></p>
-    <div class="choice-pricing">
-        <div class="mode">
-            <div class="mode-logo">
-                <p class="mode-logo-text">Basic</p>
-                <img src="assert/img/tic1.svg">
-            </div>
-            <div class="mode-price">
-                <p class="mode-cost">$10.00</p>
-                <p class="mode-term">Month</p>
-            </div>
-            <div class="mode-catalog">
-                <p class="mode-catalog-text">Modern Design</p>
-                <p class="mode-catalog-text">Easy to Customize</p>
-                <p class="mode-catalog-text">Quickly Set Up A Website</p>
-                <p class="mode-catalog-text">Another Feature</p>
-                <p class="mode-catalog-text">24/7 Customer Support</p>
-            </div>
-            <button class="mode-pricing-button">Get Started</button>
-        </div>
-        <div class="mode">
-            <div class="mode-logo1">
-                <p class="mode-logo-text2">Standard</p>
-
-                <img src="assert/img/tic2.svg">
-
-
-            </div>
-            <div class="mode-price">
-                <p class="mode-cost">$19.00</p>
-                <p class="mode-term">Month</p>
-            </div>
-            <div class="mode-catalog">
-                <p class="mode-catalog-text">Modern Design</p>
-                <p class="mode-catalog-text">Easy to Customize</p>
-                <p class="mode-catalog-text">Quickly Set Up A Website</p>
-                <p class="mode-catalog-text">Another Feature</p>
-                <p class="mode-catalog-text">24/7 Customer Support</p>
-            </div>
-            <button class="mode-pricing-button2">Get Started</button>
-        </div>
-        <div class="mode">
-            <div class="mode-logo">
-                <p class="mode-logo-text">Premium</p>
-
-                <img src="assert/img/tic3.svg">
-
-
-            </div>
-            <div class="mode-price">
-                <p class="mode-cost">$35.00</p>
-                <p class="mode-term">Month</p>
-            </div>
-            <div class="mode-catalog">
-                <p class="mode-catalog-text">Modern Design</p>
-                <p class="mode-catalog-text">Easy to Customize</p>
-                <p class="mode-catalog-text">Quickly Set Up A Website</p>
-                <p class="mode-catalog-text">Another Feature</p>
-                <p class="mode-catalog-text">24/7 Customer Support</p>
-            </div>
-            <button class="mode-pricing-button">Get Started</button>
-        </div>
-    </div>
-</div>
-<div class="email">
-    <p class="email-text-logo">Take control of your personal <span class="creat-card-logo-name">finances today</span>
-    </p>
-    <div class="email-reg">
-        <div class="registration-container">
-            <input class="registration-password" id="emailuser" name="username" required type="text">
-            <label for="emailuser">Enter your email</label>
-        </div>
-        <button class="email-button">Subscribe</button>
-
-    </div>
-</div>
-<div class="footer">
+</main>
+<footer class="footer">
     <div class="footer-logo">
         <div class="logo">
             <img class="logo-photo" src="./assert/img/Icon.svg">
@@ -774,7 +786,8 @@
             <button class="footer-button">GET A QUOTE</button>
         </div>
     </div>
-</div>
+</footer>
+
 <script src="index.js"></script>
 </body>
 </html>
