@@ -241,42 +241,10 @@
                         <img src="assert/img/Icon12.svg">
                     </a>
                 </div>
-                <div class="last-tranfered">
-
-
-                    <div class="user1">
-                        <div class="user-info">
-                            <img src="assert/img/Box.png">
-                            <div class="user-name">
-                                <p class="user-name-logo">Peterberg</p>
-                                <p class="user-name-pay">Transfered to Bank</p>
-                            </div>
-                        </div>
-                        <div class="user-price">-$19.30</div>
-                    </div>
-
-
-                    <div class="user1">
-                        <div class="user-info">
-                            <img src="assert/img/Box1.png">
-                            <div class="user-name">
-                                <p class="user-name-logo">Mark Henry</p>
-                                <p class="user-name-pay">Transfered to Payee</p>
-                            </div>
-                        </div>
-                        <div class="user-price">-$13.30</div>
-                    </div>
-
-                    <div class="user1">
-                        <div class="user-info">
-                            <img src="assert/img/Box2.png">
-                            <div class="user-name">
-                                <p class="user-name-logo">Pinto Salary</p>
-                                <p class="user-name-pay">Transfered to Bank</p>
-                            </div>
-                        </div>
-                        <div class="user-price">-$13.60</div>
-                    </div>
+                <div class="flex-column gap_32">
+                    <widget-phone-transfer price = "- $19.30" type = "Transferred to Bank" target = "Peterberg" color = "#AFE3FF"></widget-phone-transfer>
+                    <widget-phone-transfer price = "- $13.60" type = "Transferred to  Payee" target = "Mark Henry" color = "#FFE5BD"></widget-phone-transfer>
+                    <widget-phone-transfer price = "- $13.60" type = "Transferred to Bank" target = "Pinto Salary" color = "#FFC9D2"></widget-phone-transfer>
                 </div>
             </widget-phone>
 
@@ -777,5 +745,6 @@
 
 <script src="index.js"></script>
 <script src = "./assert/js/phone-component.js"></script>
+<script src = "./assert/js/phone-transfer-component.js"></script>
 </body>
 </html>

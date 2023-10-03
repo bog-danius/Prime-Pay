@@ -1,6 +1,6 @@
 * {
     margin: 0;
-
+    --color-dark: #141414;
     --primary-color: #231656;
     --secondary-color: #625FFB;
     --content-color: #4E4E4E;
@@ -66,11 +66,20 @@
 .gap_33 {
     gap: 33px
 }
+.gap_32 {
+    gap: 32px;
+}
 .gap_55 {
     gap: 55px;
 }
+.gap_16 {
+    gap: 16px;
+}
 .color_primary {
     color: var(--primary-color);
+}
+.color_dark {
+    color: var(--color-dark);
 }
 .color_light {
     color: white;

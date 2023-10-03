@@ -87,9 +87,33 @@
     line-height: 18px;
 }
 
-
-
-
+.phone-transfer-component {
+    grid-template-columns: min-content 1fr min-content;
+    align-items: center;
+}
+.phone-transfer-component-icon {
+    height: 65px;
+    aspect-ratio: 1/1;
+    border-radius: 18px;
+}
+.phone-transfer-component-info-title {
+    font-size: 18px;
+    line-height: 35px;
+}
+.phone-transfer-component-info-label{
+    color: #555;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px; /* 173.333% */
+    letter-spacing: -0.15px;
+    white-space: nowrap;
+}
+.phone-transfer-component-price {
+    color: #FF2323;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+}
 
 
 
