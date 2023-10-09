@@ -78,6 +78,9 @@
 .gap_16 {
     gap: 16px;
 }
+.gap_20 {
+    gap: 20px;
+}
 .color_primary {
     color: var(--primary-color);
 }
@@ -107,6 +110,9 @@ li {
 
 .padding_20 {
     padding: 20px;
+}
+.padding_45 {
+    padding: 45px;
 }
 
 

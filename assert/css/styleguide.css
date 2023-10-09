@@ -15,7 +15,7 @@
 }
 .section-start {
     text-align: center;
-    background-image: url('img/Background.png');
+    background-image: url('../img/Background.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -123,7 +123,7 @@
     padding: 140px 160px 140px 130px;
     margin-top: 551px;
     position: absolute;
-    background-image: url('img/telephone.png');
+    background-image: url('../img/telephone.png');
     width: 619px;
     height: 1102px;
 }
@@ -253,7 +253,7 @@
 
     border-radius: 28px;
     flex-shrink: 0;
-    background: url('img/Rectangle.png'), lightgray 50% / cover no-repeat;
+    background: url('../img/Rectangle.png'), lightgray 50% / cover no-repeat;
 
 }
 
@@ -692,7 +692,7 @@
 .telephone1 {
     box-sizing: border-box;
     position: absolute;
-    background-image: url('img/telephone.png');
+    background-image: url('../img/telephone.png');
     width: 619px;
     height: 1102px;
 }
@@ -967,27 +967,17 @@
 }
 
 .container1-block {
-    display: flex;
-
-    padding: 43px 45px;
-    flex-direction: column;
     align-items: flex-start;
-    gap: 20px;
     border-radius: 30px;
     background: #F8F8F8;
     aspect-ratio: 1/1;
-
     justify-content: center;
-
-
     text-align: left;
     line-height: 150px;
-    font-size: 24px;
 }
 
 .container1-block1-logo {
     color: #3D3269;
-    font-size: 35px;
     font-style: normal;
     font-weight: 500;
     line-height: 101.2%;
@@ -1003,13 +993,11 @@
 }
 
 .container1-block-image {
-    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .container1-block-text {
-    display: flex;
     flex-direction: column;
     justify-content: center;
 }
@@ -1068,7 +1056,7 @@
 
 
 .testimonial {
-    background-image: url('img/fon2.png');
+    background-image: url('../img/fon2.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1372,7 +1360,7 @@
 .telephone2 {
     box-sizing: border-box;
     padding: 120px;
-    background-image: url('img/telephone.png');
+    background-image: url('../img/telephone.png');
     width: 619px;
     height: 1102px;
 }
@@ -1703,7 +1691,7 @@
     position: relative;
     border-radius: 28px;
     flex-shrink: 0;
-    background: url('img/card-balance.png'), lightgray 50% / cover no-repeat;
+    background: url('../img/card-balance.png'), lightgray 50% / cover no-repeat;
     z-index: 1;
 }
 
@@ -1767,7 +1755,7 @@
     z-index: 12314;
     border-radius: 28px;
     flex-shrink: 0;
-    background: url('img/card-balance1.png'), lightgray 50% / cover no-repeat;
+    background: url('../img/card-balance1.png'), lightgray 50% / cover no-repeat;
 }
 
 .card-chip {
@@ -1818,7 +1806,7 @@
 .mode-logo {
     display: flex;
     justify-content: space-between;
-    background-image: url('img/mode-bg.png');
+    background-image: url('../img/mode-bg.png');
     width: 348px;
     height: 147px;
     flex-shrink: 0;
@@ -1829,7 +1817,7 @@
 .mode-logo1 {
     display: flex;
     justify-content: space-between;
-    background-image: url('img/mode-bg2.png');
+    background-image: url('../img/mode-bg2.png');
     width: 348px;
     height: 147px;
     flex-shrink: 0;
@@ -1944,7 +1932,7 @@
 }
 
 .email {
-    background-image: url('img/email-bg.png');
+    background-image: url('../img/email-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
