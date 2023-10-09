@@ -27,4 +27,4 @@ class Comment extends  HTMLElement {
         `
     }
 }
-customElements.define('comment', Comment);
+customElements.define('widget-comment', Comment);
