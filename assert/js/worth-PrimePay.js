@@ -18,5 +18,5 @@ class Worth extends HTMLElement {
         `
     }
 }
-customElements.define('worth-PrimePay' , Worth);
+customElements.define('worth-primepay' , Worth);
 
