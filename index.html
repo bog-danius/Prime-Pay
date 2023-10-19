@@ -24,7 +24,7 @@
             <li><a class="menu-label font-family_inter" href="#">About Us </a></li>
             <li><a class="menu-label font-family_inter" href="#">Features</a></li>
             <li><a class=" menu-label font-family_inter" href="#">Pricing</a></li>
-            <li><a class="menu-label font-family_inter" href="#">Blog</a></li>
+            <li><a class="menu-label font-family_inter" href="blog.html">Blog</a></li>
         </ul>
     </nav>
     <button class="button_md button_primary">login</button>
@@ -36,7 +36,7 @@
         <p class="section-start-info color_primary text_bold">A simple yet modern solution to showcase your app</p>
         <button class="button_primary button_lg">Get Started</button>
 
-        <widget-phone>
+        <widget-phone class="relative left_625 top_500">
             <div class="telephone-logo">
                 <div class="telephone-logo-icon">
                     <img src="assert/img/User.svg">
@@ -223,7 +223,7 @@
         </div>
         <div class="content-bg">
             <img class="content-bg-fon" src="assert/img/Photo.png">
-            <widget-phone>
+            <widget-phone class="absolute top_60">
                 <p class="telephone1-logo">My Wallets</p>
                 <div class="schedule">
                     <img class="graph-bottom" src="assert/img/Ellipse1.png">
@@ -350,11 +350,11 @@
 
     <div class="testimonial">
         <p class="testimonial-text">“Say goodbye to clutter and <span class="title1">bounce rates.</span></p>
-        <widget-comment fam="Designer" name="Nattasha"
+        <widget-comment fam="Designer" name="Nattasha" img="assert/img/avatar1.png"
                  text="“Our team was able to teach themselves primchat in a day.it's like using a shared email inboxust way more robust looking.”Primchat was the modern what we were looking."></widget-comment>
-        <widget-comment fam="Developer" name="Joe Cook"
+        <widget-comment fam="Developer" name="Joe Cook" img="assert/img/avatar2.png"
                  text="“Our team was able to teach themselves primchat in a day.it's like using a shared email inboxust way more robust looking.”Primchat was the modern what we were looking."></widget-comment>
-        <widget-comment fam="Product Designer at Uber.INC" name="Jessica Jobs"
+        <widget-comment fam="Product Designer at Uber.INC" name="Jessica Jobs" img="assert/img/avatar3.png"
                  text="“Our team was able to teach themselves primchat in a day.it's like using a shared email inboxust way more robust looking.”Primchat was the modern what we were looking."></widget-comment>
     </div>
     <div class="awards-star1">
@@ -414,18 +414,15 @@
                     <p class="telephone2-logo-text">Create an account so you can manage your financial status</p>
                 </div>
                 <div class="registration-container">
-                    <input class="registration-password" id="username" name="username" required type="text">
-                    <label for="username">Username</label>
+                    <input class="registration-password" id="username" name="username" required type="text" placeholder="Username">
                 </div>
 
                 <div class="registration-container">
-                    <input class="registration-password" id="email" name="email" required type="email">
-                    <label for="email">Email id</label>
+                    <input class="registration-password" id="email" name="email" required type="email" placeholder="Email id">
                 </div>
 
                 <div class="registration-container">
-                    <input class="registration-password" id="password" name="password" required type="password">
-                    <label for="password">Password</label>
+                    <input class="registration-password" id="password" name="password" required type="password" placeholder="Password">
                 </div>
                 <div class="check-mark">
                     <input class="checkbox" id="checkbox" name="myCheckbox" type="checkbox" value="checked">
@@ -453,8 +450,7 @@
                                     class="title2">email address</span> to reset the password</p>
                     </div>
                     <div class="registration-container">
-                        <input class="registration-password" id="phone" name="tel" required type="tel">
-                        <label for="password">phone</label>
+                        <input class="registration-password" id="phone" name="tel" required type="tel"  placeholder="phone">
                     </div>
                     <button class="registration-button">Continue</button>
                     <div class="registration-acc1-text">
@@ -649,8 +645,7 @@
         </p>
         <div class="email-reg">
             <div class="registration-container">
-                <input class="registration-password" id="emailuser" name="username" required type="text">
-                <label for="emailuser">Enter your email</label>
+                <input class="registration-password" id="emailuser" name="username" required type="text" placeholder="Enter your email">
             </div>
             <button class="email-button">Subscribe</button>
 
@@ -696,8 +691,8 @@
         </div>
         <div class="footer-menu-1">
             <p class="footer-menu-logo">Address</p>
-            <p class="footer-menu-text">1700 W Blancke St, kiyev port south USA, America</p>
-            <p class="footer-menu-text"></p>
+            <p class="footer-menu-text empty-line">1700 W Blancke St, kiyev port south USA, America</p>
+
             <p class="footer-menu-text">+3255 456 789</p>
             <p class="footer-menu-text">mail@primpay.com</p>
             <button class="footer-button">GET A QUOTE</button>

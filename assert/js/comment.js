@@ -11,7 +11,7 @@ class Comment extends  HTMLElement {
         <div class="comment">
             <div class="comment-player flex">
                 <div class="comment-player-info flex gap_15">
-                    <img class="comment-player-photo" src="assert/img/avatar3.png">
+                    <img class="comment-player-photo" src="${img}">
                         <div>
                             <p class="comment-player-name text_lg">${name}</p>
                             <p class="comment-player-work">${fam}</p>

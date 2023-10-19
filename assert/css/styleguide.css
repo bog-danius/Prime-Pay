@@ -14,12 +14,13 @@
     padding: 10px;
 }
 .section-start {
+    border-radius: 80px;
     text-align: center;
     background-image: url('../img/Background.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 136px 0 528px 0 ;
+    padding: 136px 0 0 0 ;
 }
 .section-start-title {
     font-size: 80px;
@@ -32,9 +33,10 @@
     line-height: 160%;
 }
 .section-how-we-work {
+
     justify-content: center;
     background-color: var(--background-color);
-    padding: 496px 0 162px 0 ;
+    padding: 530px 0 162px 0 ;
     border-radius: 30px;
 }
 .section-how-we-work-card {
@@ -44,15 +46,16 @@
 .section-how-we-work-card-title {
     font-size: 30px;
     font-weight: 500;
-    line-height: 133.2%; /* 39.96px */
+    line-height: 133.2%;
     padding: 32px 0 7px 0;
 }
 .section-how-we-work-card-info {
     font-size: 20px;
     font-weight: 400;
-    line-height: 160%; /* 32px */
+    line-height: 160%;
 }
 .phone-container-action {
+    margin-top: 10px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
 }
@@ -104,7 +107,7 @@
     color: #555;
     font-size: 15px;
     font-weight: 400;
-    line-height: 26px; /* 173.333% */
+    line-height: 26px;
     letter-spacing: -0.15px;
     white-space: nowrap;
 }
@@ -114,10 +117,6 @@
     font-weight: 500;
     line-height: 20px;
 }
-
-
-
-
 .telephone {
     box-sizing: border-box;
     padding: 140px 160px 140px 130px;
@@ -133,7 +132,7 @@
 }
 
 .title {
-    color: var(--secondary-Color);
+    color: var(--secondary-color);
 
     font-size: 16px;
     font-style: normal;
@@ -1066,8 +1065,9 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
-    margin: 61px 88px 12px 88px;
     padding: 130px;
+    margin: 0 auto;
+    max-width: 1467px;
 
 }
 
@@ -1133,10 +1133,6 @@
     margin: 30px 0 30px 0;
 }
 
-.awards-star1 {
-    margin: 61px 88px 12px 88px;
-}
-
 .awards1 {
     display: flex;
     height: 285px;
@@ -1146,7 +1142,6 @@
     gap: 120px;
     border-radius: 30px;
     background: #F3F3F3;
-    margin: auto;
 }
 
 .awards-star-best {
@@ -1300,9 +1295,6 @@
     padding: 38px 79px;
     justify-content: center;
     align-items: center;
-    margin: auto;
-
-
 }
 
 .awards-rating1 {
@@ -1569,6 +1561,7 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    max-width: 2450px;
     margin-bottom: 90px;
 }
 
@@ -1940,7 +1933,9 @@
     align-items: center;
     padding: 130px 80px;
     gap: 100px;
+    margin: 0 auto;
     border-radius: 50px;
+    max-width: 1200px;
 }
 
 .email-text-logo {
@@ -1977,7 +1972,7 @@
 
 .footer {
     margin: 61px 88px 12px 88px;
-
+    justify-content: center;
     display: flex;
     padding: 100px 174px;
     align-items: flex-start;
@@ -2041,14 +2036,16 @@
     padding: 13px 29px 14px 29px;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    margin-top: 10px;
     border-radius: 72px;
     background: #625FFB;
     color: #FFF;
-
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: 160%;
     text-transform: uppercase;
+}
+.empty-line{
+    margin-bottom: 40px;
 }

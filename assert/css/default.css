@@ -48,6 +48,16 @@
 .margin_auto {
     margin: auto;
 }
+.top_60{
+    top: 60px;
+}
+.top_500{
+    top: 500px;
+}
+.left_625{
+    left: 625px;
+}
+
 .gap_7 {
     gap: 7px;
 }
@@ -113,6 +123,12 @@ li {
 }
 .padding_45 {
     padding: 45px;
+}
+.absolute{
+    position: absolute;
+}
+.relative{
+    position: relative;
 }
 
 
