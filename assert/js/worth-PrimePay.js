@@ -8,7 +8,7 @@ class Worth extends HTMLElement {
         this.innerHTML = `
         <div class="container1-block flex-column gap_20 text_xs padding_45">
             <div class="container1-block-image flex">
-               <img src="assert/img/Image1.png">
+               <img src="assert/img/Image1.png" alt="container-img">
             </div>
                 <div class="container1-block-text flex ">
                    <p class="container1-block1-logo text_lg">${name}</p>
@@ -18,5 +18,5 @@ class Worth extends HTMLElement {
         `
     }
 }
-customElements.define('worth-PrimePay' , Worth);
+customElements.define('worth-primepay' , Worth);
 
