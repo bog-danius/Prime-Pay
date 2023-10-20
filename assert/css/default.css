@@ -131,4 +131,40 @@ li {
     position: relative;
 }
 
+.widget-checkbox {
+    position: relative;
+    width: 21px;
+    aspect-ratio: 1/1;
+    display: block;
+}
+.widget-checkbox>input {
+    width: 100%;
+}
 
+.widget-checkbox:after {
+    content: "";
+    display: block;
+    width: 21px;
+    aspect-ratio: 1/1;
+    border-radius: 7px;
+    background: #141414;
+}
+
+
+.widget-checkbox>input:checked:before {
+    content: "✓";
+    color: white;
+
+    z-index: 5;
+    position: relative;
+    right: 0;
+    text-align: center;
+    display: block;
+    top: -3px;
+    margin: auto;
+}
+.widget-checkbox:after
+ {
+    position: absolute;
+    inset: 0 0 0 0;
+}
