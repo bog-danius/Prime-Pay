@@ -29,6 +29,57 @@
     <button class="button_md button_primary">login</button>
 </header>
 <main>
+    <div class="blog-logo margin_auto">
+        <p class="blog-logo-text">Blog</p>
+    </div>
+
+    <div class="search-blog flex">
+        <p class="search-blog-logo">News <span class="title1">Articles</span>
+        </p>
+        <div class="search-reg">
+            <div class="search-container">
+                <input class="search-password" id="mess" name="username" placeholder="Enter your email" required
+                       type="text">
+            </div>
+            <button class="search-button flex">Subscribe</button>
+
+        </div>
+    </div>
+
+
+    <div class="latest-news-block flex gap_25">
+        <latest-news data="May 02, 2022" img="assert/img/latest-news1.png"
+                     name="Nattasha" text="Great productivity apps you can download for free this week on iPhone"
+                     work="Business"></latest-news>
+        <div class="mini-latest-news-block flex-column gap_20">
+            <mini-latest-news data="May 02, 2022" img="assert/img/mini-latest-news1.png"
+                              name="Peter" text="App X is now available on your wrist: Download watchOS..."
+                              work="Business"></mini-latest-news>
+            <mini-latest-news data="May 02, 2022" img="assert/img/mini-latest-news2.png"
+                              name="Peter" text="App X is now available on your wrist: Download watchOS..."
+                              work="Business"></mini-latest-news>
+            <mini-latest-news data="May 02, 2022" img="assert/img/mini-latest-news3.png"
+                              name="Peter" text="App X is now available on your wrist: Download watchOS..."
+                              work="Business"></mini-latest-news>
+        </div>
+    </div>
+
+    <p class="search-blog-logo">Latest <span class="title1">News</span>
+    </p>
+    <div class="latest-news-main">
+        <latest-news data="May 02, 2022" img="assert/img/latest-news2.png"
+                     name="Nattasha" text="Great productivity apps you can download for free this week on iPhone"
+                     work="Business"></latest-news>
+        <latest-news data="May 02, 2022" img="assert/img/latest-news3.png"
+                     name="Nattasha" text="Great productivity apps you can download for free this week on iPhone"
+                     work="Business"></latest-news>
+        <latest-news data="May 02, 2022" img="assert/img/latest-news4.png"
+                     name="Nattasha" text="Great productivity apps you can download for free this week on iPhone"
+                     work="Business"></latest-news>
+        <latest-news data="May 02, 2022" img="assert/img/latest-news5.png"
+                     name="Nattasha" text="Great productivity apps you can download for free this week on iPhone"
+                     work="Business"></latest-news>
+    </div>
 
     <div class="email">
         <p class="email-text-logo">Take control of your personal <span
@@ -36,7 +87,9 @@
         </p>
         <div class="email-reg">
             <div class="registration-container">
-                <input class="registration-password" id="emailuser" name="username" required type="text" placeholder="Enter your email">
+                <input class="registration-password" id="emailuser" name="username" placeholder="Enter your email"
+                       required
+                       type="text">
 
             </div>
             <button class="email-button">Subscribe</button>
@@ -91,6 +144,8 @@
         </div>
     </div>
 </footer>
-
+<script src="index.js"></script>
+<script src="./assert/js/latest-news.js"></script>
+<script src="./assert/js/mini-latest-news.js"></script>
 </body>
 </html>

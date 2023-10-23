@@ -48,6 +48,9 @@
 .margin_auto {
     margin: auto;
 }
+.max-width_700{
+    max-width: 700px;
+}
 .top_60{
     top: 60px;
 }
@@ -124,6 +127,12 @@ li {
 .padding_45 {
     padding: 45px;
 }
+.margin-top_45 {
+    margin-top: 45px;
+}
+.margin-bottom_30 {
+    margin-bottom: 30px;
+}
 .absolute{
     position: absolute;
 }
@@ -163,8 +172,10 @@ li {
     top: -3px;
     margin: auto;
 }
-.widget-checkbox:after
- {
+.widget-checkbox:after {
     position: absolute;
     inset: 0 0 0 0;
+}
+.angle{
+    border-radius: 30px;
 }
