@@ -966,6 +966,9 @@
 }
 
 .container1-block {
+    display: flex;
+    flex-direction: column;
+    padding: 45px;
     align-items: flex-start;
     border-radius: 30px;
     background: #F8F8F8;
@@ -1002,6 +1005,9 @@
 }
 
 .circular-menu {
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #EBEBEB;
     display: flex;
     flex-direction: column;
     align-items: center;
