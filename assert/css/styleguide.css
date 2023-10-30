@@ -3,9 +3,11 @@
     align-items: center;
     padding: 40px 0;
 }
+
 .logo {
     align-items: end;
 }
+
 .menu-label {
     color: var(--primary-color);
     font-size: 18px;
@@ -13,6 +15,7 @@
     line-height: 160%;
     padding: 10px;
 }
+
 .section-start {
     border-radius: 80px;
     text-align: center;
@@ -20,57 +23,68 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 136px 0 0 0 ;
+    padding: 136px 0 0 0;
 }
+
 .section-start-title {
     font-size: 80px;
     line-height: 116.7%;
     max-width: 796px;
 }
+
 .section-start-info {
     padding: 33px 0;
     font-size: 25px;
     line-height: 160%;
 }
+
 .section-how-we-work {
 
     justify-content: center;
     background-color: var(--background-color);
-    padding: 530px 0 162px 0 ;
+    padding: 530px 0 162px 0;
     border-radius: 30px;
 }
+
 .section-how-we-work-card {
     width: 430px;
     text-align: center;
 }
+
 .section-how-we-work-card-title {
     font-size: 30px;
     font-weight: 500;
     line-height: 133.2%;
     padding: 32px 0 7px 0;
 }
+
 .section-how-we-work-card-info {
     font-size: 20px;
     font-weight: 400;
     line-height: 160%;
 }
+
 .phone-container-action {
     margin-top: 10px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
 }
+
 .phone-container-action-item {
     border-radius: 16px;
     background: #F3F3F3;
     align-items: center;
 }
+
 .phone-container-action-item_active {
     background-color: white;
 }
+
 .phone-container-action-item-icon {
     position: relative;
     width: 20px;
 }
+
 .phone-container-action-item-icon-wrap {
     width: 33px;
     aspect-ratio: 1 / 1;
@@ -80,9 +94,11 @@
     border-radius: 50%;
     background-color: #363636;
 }
+
 .phone-container-action-item-icon-wrap_active {
     background-color: #6C69FF;
 }
+
 .phone-container-action-item-label {
     color: #141414;
     font-size: 13px;
@@ -94,16 +110,19 @@
     grid-template-columns: min-content 1fr min-content;
     align-items: center;
 }
+
 .phone-transfer-component-icon {
     height: 65px;
     aspect-ratio: 1/1;
     border-radius: 18px;
 }
+
 .phone-transfer-component-info-title {
     font-size: 18px;
     line-height: 35px;
 }
-.phone-transfer-component-info-label{
+
+.phone-transfer-component-info-label {
     color: #555;
     font-size: 15px;
     font-weight: 400;
@@ -111,12 +130,14 @@
     letter-spacing: -0.15px;
     white-space: nowrap;
 }
+
 .phone-transfer-component-price {
     color: #FF2323;
     font-size: 20px;
     font-weight: 500;
     line-height: 20px;
 }
+
 .telephone {
     box-sizing: border-box;
     padding: 140px 160px 140px 130px;
@@ -1125,6 +1146,7 @@
     line-height: 160%;
     text-transform: capitalize;
 }
+
 .comment-text {
     max-width: 700px;
     color: #4E4E4E;
@@ -2052,18 +2074,21 @@
     line-height: 160%;
     text-transform: uppercase;
 }
-.empty-line{
+
+.empty-line {
     margin-bottom: 40px;
 }
+
 /**
 *blog
 **/
-.search-blog{
+.search-blog {
     margin: 80px 0;
     align-items: center;
     justify-content: space-evenly;
 }
-.search-blog-logo{
+
+.search-blog-logo {
     text-align: center;
     color: #B5B5B5;
     font-size: 55px;
@@ -2071,16 +2096,19 @@
     font-weight: 600;
     line-height: 101.2%;
 }
-.search-reg{
+
+.search-reg {
     display: flex;
     gap: 10px;
     justify-content: center;
     align-items: center;
 }
-.search-container{
+
+.search-container {
 
 }
-.search-password{
+
+.search-password {
     padding: 15px;
     font-size: 20px;
     width: 400px;
@@ -2092,7 +2120,8 @@
     box-shadow: 40px 48px 105px 0 #EBEBEB;
 
 }
-.search-button{
+
+.search-button {
     width: 139px;
     padding: 26px 32px 26px 32px;
     justify-content: center;
@@ -2110,14 +2139,22 @@
     text-transform: uppercase;
 
 }
-.latest-news{
+
+.latest-news {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     max-width: 700px;
 }
-.work{
+.latest-news1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.work {
     display: flex;
     padding: 4px 17px;
     justify-content: center;
@@ -2127,14 +2164,16 @@
     border-radius: 100px;
     background: #E5DFF4;
 }
-.work-text{
+
+.work-text {
     color: #7D5FFF;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 160%;
 }
-.latest-news-text{
+
+.latest-news-text {
     margin-top: 21px;
     color: #3D3269;
     text-align: center;
@@ -2145,13 +2184,15 @@
     text-transform: capitalize;
     max-width: 700px;
 }
-.latest-news-footer{
+
+.latest-news-footer {
     margin-top: 34px;
     display: flex;
     align-items: center;
 
 }
-.latest-news-data{
+
+.latest-news-data {
     color: #3D3269;
     text-align: center;
     font-size: 20px;
@@ -2159,14 +2200,16 @@
     font-weight: 400;
     line-height: normal;
 }
-.latest-news-dot{
+
+.latest-news-dot {
     width: 8px;
     height: 8px;
     flex-shrink: 0;
     border-radius: 50%;
     background-color: #625FFB;
 }
-.latest-news-name{
+
+.latest-news-name {
     color: #3D3269;
     text-align: center;
     font-size: 20px;
@@ -2174,7 +2217,8 @@
     font-weight: 400;
     line-height: normal;
 }
-.mini-latest-news-text{
+
+.mini-latest-news-text {
     color: #3D3269;
     font-size: 30px;
     font-style: normal;
@@ -2182,19 +2226,23 @@
     line-height: normal;
     max-width: 419px;
 }
-.latest-news-block{
+
+.latest-news-block {
     justify-content: center;
     margin-bottom: 110px;
 
 }
-.mini-latest-news-block{
+
+.mini-latest-news-block {
 
 }
-.mini-latest-news{
+
+.mini-latest-news {
     display: flex;
 
 }
-.blog-logo{
+
+.blog-logo {
 
     border-radius: 80px;
     max-width: 1747px;
@@ -2205,7 +2253,8 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-.blog-logo-text{
+
+.blog-logo-text {
     color: #231656;
 
     text-align: center;
@@ -2214,12 +2263,30 @@
     font-weight: 600;
     line-height: 116.7%;
 }
-.latest-news-main{
+
+.latest-news-main {
     max-width: 1360px;
     margin: 60px auto;
     display: grid;
-    grid-template-columns: repeat(2 , 1fr);
-    grid-template-rows: repeat(2 , 1fr);
-    gap:43px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 43px;
 
+}
+
+.latest-news-main1 {
+    max-width: 1360px;
+    margin: 60px auto;
+    display: flex;
+    gap: 43px;
+
+}
+.latest-news-text1{
+    color: #3D3269;
+    text-align: center;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123%;
+    max-width: 1000px;
 }
