@@ -1,3 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .header {
     justify-content: space-between;
     align-items: center;
@@ -1619,7 +1628,7 @@
     isolation: isolate;
     position: relative;
     height: 60px;
-    width:200px;
+    width: 200px;
     border-radius: 40px;
     overflow: hidden;
     box-shadow: -8px -4px 8px 0 #fff, 8px 4px 12px 0 #d1d9e6, 4px 4px 4px 0 #d1d9e6 inset, -4px -4px 4px 0 #fff inset;
@@ -1642,6 +1651,7 @@
 .toggle-state:checked ~ .indicator {
     transform: translate3d(25%, 0, 0);
 }
+
 .creat-card-main {
     background-color: #303030;
     padding: 145px 260px;
@@ -1997,7 +2007,7 @@
     margin: 61px 88px 12px 88px;
     justify-content: center;
     display: flex;
-    padding: 100px 174px;
+    padding: 100px 174px 10px 174px;
     align-items: flex-start;
     gap: 81px;
     border-radius: 30px;
@@ -2142,6 +2152,7 @@
     justify-content: center;
     max-width: 700px;
 }
+
 .latest-news1 {
     display: flex;
     flex-direction: column;
@@ -2227,6 +2238,7 @@
     margin-bottom: 110px;
 
 }
+
 .mini-latest-news {
     display: flex;
 
@@ -2276,7 +2288,8 @@
     gap: 43px;
 
 }
-.latest-news-text1{
+
+.latest-news-text1 {
     color: #3D3269;
     text-align: center;
     font-size: 55px;
@@ -2285,6 +2298,7 @@
     line-height: 123%;
     max-width: 1000px;
 }
+
 .latest-news1 {
     display: flex;
     flex-direction: column;
@@ -2293,14 +2307,15 @@
     margin-bottom: 80px;
 }
 
-.horizontal-line-links{
+.horizontal-line-links {
     margin: 20px 0;
     padding: 0;
     height: 2px;
     border: none;
     border-top: 4px dashed #ddd;
 }
-.links-text{
+
+.links-text {
     margin-top: 15px;
     color: #4E4E4E;
     text-align: justify;
@@ -2310,7 +2325,8 @@
     line-height: 150.5%;
     width: 900px;
 }
-.links-logo{
+
+.links-logo {
     padding: 40px;
     width: 900px;
     text-align: start;
@@ -2320,7 +2336,8 @@
     font-weight: 600;
     line-height: 110%;
 }
-.links-text-list{
+
+.links-text-list {
     color: #4E4E4E;
     font-size: 18px;
     font-style: normal;
@@ -2328,20 +2345,23 @@
     line-height: 288.5%;
     text-transform: capitalize;
 }
-.speech{
+
+.speech {
     width: 32px;
     height: 238px;
     flex-shrink: 0;
     background: #8A6FFD;
 }
-.speech-text{
+
+.speech-text {
     color: #4E4E4E;
     font-size: 25px;
     font-style: normal;
     font-weight: 400;
     line-height: 160%;
 }
-.link-commit{
+
+.link-commit {
     display: flex;
     width: 900px;
     padding: 47px 52px;
@@ -2351,7 +2371,8 @@
     border-radius: 30px;
     background: #F5F5F5;
 }
-.horizontal-line-links-text{
+
+.horizontal-line-links-text {
     width: 700px;
     height: 2px;
     background: #CCC;

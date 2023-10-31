@@ -8,187 +8,247 @@
     --greybackground-color: #F8F8F8;
     font-family: 'Jost', sans-serif;
 }
+
 .font-family_inter {
     font-family: 'Inter', sans-serif;
 }
+
 .text_xs {
     font-size: 25px;
 }
+
 .text_sm {
     font-size: 28px;
 }
+
 .text_md {
     font-size: 30px;
 }
+
 .text_lg {
     font-size: 35px;
 }
+
 .text_xl {
     font-size: 40px;
 }
+
 .text_xxl {
     font-size: 70px;
 }
+
 .text_bold {
     font-weight: bold;
 }
-.center{
+
+.center {
     justify-content: center;
     align-items: center;
 }
+
 .flex {
     display: flex;
 }
+
 .column {
     flex-direction: column;
 }
-.row{
+
+.row {
     flex-direction: row;
 }
-.between{
+
+.between {
     justify-content: space-between;
 }
-.evenly{
+
+.evenly {
     justify-content: space-evenly;
 }
-.around{
+
+.around {
     justify-content: space-around;
 }
+
 .grid {
     display: grid;
 }
+
 .HIDE {
     display: none;
 }
+
 .margin_auto {
     margin: auto;
 }
-.max-width_700{
+
+.max-width_700 {
     max-width: 700px;
 }
-.max-width_1050{
+
+.max-width_1050 {
     max-width: 1050px;
 }
-.top_60{
+
+.top_60 {
     top: 60px;
 }
-.top_500{
+
+.top_500 {
     top: 500px;
 }
-.left_625{
+
+.left_625 {
     left: 625px;
 }
+
 .gap_6 {
     gap: 6px;
 }
+
 .gap_7 {
     gap: 7px;
 }
+
 .gap_8 {
     gap: 8px;
 }
+
 .gap_9 {
     gap: 9px;
 }
+
 .gap_10 {
     gap: 10px;
 }
+
 .gap_15 {
     gap: 15px;
 }
+
 .gap_16 {
     gap: 16px;
 }
+
 .gap_20 {
     gap: 20px;
 }
-.gap_95{
+
+.gap_95 {
     gap: 95px;
 }
+
 .gap_25 {
     gap: 25px;
 }
+
 .gap_32 {
     gap: 32px;
 }
+
 .gap_33 {
     gap: 33px
 }
+
 .gap_45 {
     gap: 45px;
 }
+
 .gap_55 {
     gap: 55px;
 }
+
 .gap_120 {
     gap: 120px;
 }
+
 .gap_430 {
     gap: 430px;
 }
-.padding-top_20{
+
+.padding-top_20 {
     padding-top: 20px;
 }
+
 .padding_20 {
     padding: 20px;
 }
+
 .padding_45 {
     padding: 45px;
 }
+
 .mar_15 {
     margin: 15px 0;
 }
+
 .margin-top_45 {
     margin-top: 45px;
 }
+
 .margin-bottom_30 {
     margin-bottom: 30px;
 }
+
 .color_primary {
     color: var(--primary-color);
 }
+
 .color_dark {
     color: var(--color-dark);
 }
+
 .color_light {
     color: white;
 }
+
 .color_gray {
     color: var(--content-color);
 }
+
 a {
     text-decoration: none;
 }
-.list{
+
+.list {
     list-style-type: none;
 }
+
 .wrap-container {
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
 }
+
 .wrap-container_lg {
     max-width: 1747px;
 }
-.center_align{
+
+.center_align {
     align-items: center;
 }
-.center_justify{
-    justify-content:center;
+
+.center_justify {
+    justify-content: center;
 }
-.width_900{
+
+.width_900 {
     width: 900px;
 }
-.width{
-   width: 100%
+
+.width {
+    width: 100%
 }
-.max_width_2400{
+
+.max_width_2400 {
     max-width: 2400px;
 }
-.absolute{
+
+.absolute {
     position: absolute;
 }
-.relative{
+
+.relative {
     position: relative;
 }
 
@@ -198,7 +258,8 @@ a {
     aspect-ratio: 1/1;
     display: block;
 }
-.widget-checkbox>input {
+
+.widget-checkbox > input {
     width: 100%;
 }
 
@@ -210,14 +271,16 @@ a {
     border-radius: 7px;
     background: #141414;
 }
-.list_style_type-circle{
+
+.list_style_type-circle {
     list-style-type: circle;
 }
-.border_40{
+
+.border_40 {
     border-radius: 40px;
 }
 
-.widget-checkbox>input:checked:before {
+.widget-checkbox > input:checked:before {
     content: "✓";
     color: white;
 
@@ -229,10 +292,52 @@ a {
     top: -3px;
     margin: auto;
 }
+
 .widget-checkbox:after {
     position: absolute;
     inset: 0 0 0 0;
 }
-.angle{
+
+.angle {
     border-radius: 30px;
+}
+
+.btn-up {
+    position: fixed;
+    background-color: #3d3269;
+    left: 20px;
+    bottom: 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease-in-out;
+    width: 60px;
+    height: 50px;
+    opacity: 1;
+}
+
+.btn-up::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23fff' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z'/%3E%3C/svg%3E");
+}
+
+.btn-up_hide {
+    display: none;
+}
+
+.btn-up_hiding {
+    opacity: 0;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .btn-up:hover {
+        background-color: #231656;
+    }
 }
