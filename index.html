@@ -69,25 +69,25 @@
                 </div>
             </div>
             <div class="phone-container-action gap_8 grid">
-                <div class="phone-container-action-item phone-container-action-item_active flex-column gap_7 padding_20 ">
-                    <div class="phone-container-action-item-icon-wrap phone-container-action-item-icon-wrap_active">
+                <div class="phone-container-action-item phone-container-action-item_active flex column gap_7 padding_20 ">
+                    <div class="phone-container-action-item-icon-wrap phone-container-action-item-icon-wrap_active flex center_align center_justify">
                         <img class="phone-container-action-item-icon" src="assert/img/Icon1.svg">
                     </div>
                     <p class="phone-container-action-item-label">Send / Receive</p>
                 </div>
-                <div class="phone-container-action-item flex-column gap_7 padding_20">
+                <div class="phone-container-action-item flex column gap_7 padding_20">
                     <div class="phone-container-action-item-icon-wrap">
                         <img class="phone-container-action-item-icon" src="assert/img/Icon2.svg">
                     </div>
                     <p class="phone-container-action-item-label">Transfer Money</p>
                 </div>
-                <div class="phone-container-action-item flex-column gap_7 padding_20">
+                <div class="phone-container-action-item flex column gap_7 padding_20">
                     <div class="phone-container-action-item-icon-wrap">
                         <img class="phone-container-action-item-icon" src="assert/img/Icon3.svg">
                     </div>
                     <p class="phone-container-action-item-label">Recharge & Bills</p>
                 </div>
-                <div class="phone-container-action-item flex-column gap_7 padding_20">
+                <div class="phone-container-action-item flex column gap_7 padding_20">
                     <div class="phone-container-action-item-icon-wrap">
                         <img class="phone-container-action-item-icon" src="assert/img/Icon4.svg">
                     </div>
@@ -232,7 +232,7 @@
                         <img src="assert/img/Icon12.svg">
                     </a>
                 </div>
-                <div class="flex-column gap_32">
+                <div class="flex column gap_32">
                     <widget-phone-transfer color="#AFE3FF" price="- $19.30" target="Peterberg"
                                            type="Transferred to Bank"></widget-phone-transfer>
                     <widget-phone-transfer color="#FFE5BD" price="- $13.60" target="Mark Henry"
@@ -451,10 +451,12 @@
         <div class="registration-footer">
             <p class="registration-footer-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt dolore magna aliqua.</p>
-            <div class="theme-switch">
-                <input id="theme-toggle" type="checkbox">
-                <label for="theme-toggle"></label>
-            </div>
+            <label class="label">
+                <div class="toggle">
+                    <input class="toggle-state" type="checkbox" name="check" value="check">
+                    <div class="indicator"></div>
+                </div>
+            </label>
         </div>
     </div>
     <div class="creat-card-main">

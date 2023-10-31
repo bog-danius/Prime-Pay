@@ -9,8 +9,8 @@ class header extends HTMLElement {
                 <p class="text_md text_bold color_primary">PrimePay.</p>
             </a>
             <nav>
-                <ul class="flex gap_25">
-                    <li><a class="menu-label font-family_inter" href="#">About Us </a></li>
+                <ul class="flex gap_25 list">
+                    <li><a class="menu-label font-family_inter list" href="#">About Us </a></li>
                     <li><a class="menu-label font-family_inter" href="#">Features</a></li>
                     <li><a class=" menu-label font-family_inter" href="blog-single.html">Pricing</a></li>
                     <li><a class="menu-label font-family_inter" href="blog.html">Blog</a></li>
