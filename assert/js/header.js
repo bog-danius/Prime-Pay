@@ -11,7 +11,7 @@ class header extends HTMLElement {
             <nav>
                 <ul class="flex gap_25 list">
                     <li><a class="menu-label font-family_inter list" href="#">About Us </a></li>
-                    <li><a class="menu-label font-family_inter" href="#">Features</a></li>
+                    <li><a class="menu-label font-family_inter" href="protected.html">Features</a></li>
                     <li><a class=" menu-label font-family_inter" href="blog-single.html">Pricing</a></li>
                     <li><a class="menu-label font-family_inter" href="blog.html">Blog</a></li>
                 </ul>

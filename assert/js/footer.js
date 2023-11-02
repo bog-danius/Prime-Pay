@@ -24,27 +24,27 @@ class footer extends HTMLElement {
             <div class="footer-line"></div>
             <div class="footer-menu">
                 <div class="footer-menu-1">
-                    <p class="footer-menu-logo">Menu</p>
-                    <p class="footer-menu-text">About</p>
-                    <p class="footer-menu-text">Features</p>
-                    <p class="footer-menu-text">Pricing</p>
-                    <p class="footer-menu-text">Blog</p>
-                    <p class="footer-menu-text">How it Work</p>
+                    <a class="footer-menu-logo" href="#">Menu</a>
+                    <a class="footer-menu-text" href="#">About</a>
+                    <a class="footer-menu-text" href="protected.html">Features</a>
+                    <a class="footer-menu-text" href="blog-single.html">Pricing</a>
+                    <a class="footer-menu-text" href="blog.html">Blog</a>
+                    <a class="footer-menu-text" href="#">How it Work</a>
                 </div>
                 <div class="footer-menu-1">
-                    <p class="footer-menu-logo">Utility pages</p>
-                    <p class="footer-menu-text">Style guide</p>
-                    <p class="footer-menu-text">Password protected</p>
-                    <p class="footer-menu-text">404 Not found</p>
-                    <p class="footer-menu-text">licenses</p>
-                    <p class="footer-menu-text">Changelog</p>
+                    <a class="footer-menu-logo" href="#">Utility pages</a>
+                    <a class="footer-menu-text" href="#">Style guide</a>
+                    <a class="footer-menu-text" href="#">Password protected</a>
+                    <a class="footer-menu-text" href="404.html">404 Not found</a>
+                    <a class="footer-menu-text" href="licenses.html">licenses</a>
+                    <a class="footer-menu-text" href="#">Changelog</a>
                 </div>
                 <div class="footer-menu-1">
-                    <p class="footer-menu-logo">Address</p>
-                    <p class="footer-menu-text empty-line">1700 W Blancke St, kiyev port south USA, America</p>
+                    <a class="footer-menu-logo" href="#">Address</a>
+                    <a class="footer-menu-text empty-line" href="#">1700 W Blancke St, kiyev port south USA, America</a>
 
-                    <p class="footer-menu-text">+3255 456 789</p>
-                    <p class="footer-menu-text">mail@primpay.com</p>
+                    <a class="footer-menu-text" href="#">+3255 456 789</a>
+                    <a class="footer-menu-text" href="#">mail@primpay.com</a>
                     <button class="footer-button">GET A QUOTE</button>
                 </div>
             </div>

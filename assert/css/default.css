@@ -81,7 +81,9 @@
 .margin_auto {
     margin: auto;
 }
-
+.max-width_900 {
+    max-width: 900px;
+}
 .max-width_700 {
     max-width: 700px;
 }

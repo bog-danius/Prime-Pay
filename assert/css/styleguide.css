@@ -1,10 +1,12 @@
 body {
     margin: 0;
     padding: 0;
-    display: inline-block;
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .header {
@@ -2315,6 +2317,15 @@ body {
     border-top: 4px dashed #ddd;
 }
 
+.horizontal-line-links1 {
+    width: 70%;
+    margin: 20px 0;
+    padding: 0;
+    height: 2px;
+    border: none;
+    border-top: 4px dashed #ddd;
+}
+
 .links-text {
     margin-top: 15px;
     color: #4E4E4E;
@@ -2376,4 +2387,127 @@ body {
     width: 700px;
     height: 2px;
     background: #CCC;
+}
+
+.licenses {
+    display: flex;
+    justify-content: center;
+    gap: 306px;
+    margin: 120px 0;
+}
+
+.license-title1-text {
+    color: #4E4E4E;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150.5%;
+    max-width: 800px;
+}
+
+.license-title1-text-span {
+    color: #8A6FFD;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150.5%;
+}
+
+.licenses1 {
+    display: flex;
+    justify-content: center;
+    gap: 89px;
+    margin: 120px 0;
+}
+
+.licenses2 {
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    gap: 380px;
+    margin: 120px 40px 120px 0;
+}
+
+.licenses3 {
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+
+    gap: 175px;
+    margin: 120px 0 120px 100px;
+}
+
+.licenses-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.protected {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 150px auto;
+}
+
+.protected-logo {
+    color: #242331;
+
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+.protected-text {
+    color: #4E4E4E;
+    max-width: 621px;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 157.4%;
+}
+
+.main-404 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 150px auto;
+}
+
+.logo-404 {
+    color: #231656;
+
+    text-align: center;
+    font-size: 360px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 110%;
+}
+
+.text1-404 {
+    color: #231656;
+    text-align: center;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+.text2-404 {
+    color: #4E4E4E;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 157.4%;
+    max-width: 800px;
 }
