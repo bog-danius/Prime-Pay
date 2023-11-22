@@ -29,6 +29,7 @@ body {
 }
 
 .section-start {
+    height: 800px;
     border-radius: 80px;
     text-align: center;
     background-image: url('../img/Background.png');
@@ -54,7 +55,7 @@ body {
 
     justify-content: center;
     background-color: var(--background-color);
-    padding: 530px 0 162px 0;
+    padding: 350px 0 162px 0;
     border-radius: 30px;
 }
 
@@ -202,12 +203,6 @@ body {
     gap: 120px;
 
 }
-
-.acc {
-
-
-}
-
 .balance-name {
     color: #141414;
     font-size: 14px;
@@ -672,10 +667,7 @@ body {
 
 .content-video {
     display: flex;
-
-
 }
-
 .content-video-text {
     display: flex;
     flex-direction: column;
@@ -1447,8 +1439,19 @@ body {
     margin-bottom: 20px;
 
 }
+.registration-container-email {
+    position: relative;
+    margin-bottom: 20px;
+
+}
 
 .registration-container label {
+    position: absolute;
+    top: 24px;
+    left: 13px;
+    transition: opacity 0.2s;
+}
+.registration-container-email label {
     position: absolute;
     top: 24px;
     left: 13px;
@@ -1476,11 +1479,24 @@ body {
     height: 35px;
 
 }
+.registration-container-email input {
+    padding: 13px;
+    font-size: 16px;
+    width: 304px;
+    height: 35px;
+
+}
+
 
 .registration-container input:focus + label {
     opacity: 0;
 
 }
+.registration-container-email input:focus + label {
+    opacity: 0;
+
+}
+
 
 .checkbox-text {
     color: #141414;
@@ -1988,7 +2004,9 @@ body {
     justify-content: center;
     align-items: center;
 }
+.registration-email{
 
+}
 .email-button {
     display: flex;
     padding: 25px 59px 26px 59px;
@@ -1998,7 +2016,7 @@ body {
     border-radius: 72px;
     background: #231656;
     color: #FFF;
-= font-size: 18 px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: 160%;

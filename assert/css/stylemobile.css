@@ -1,0 +1,177 @@
+@media screen and (max-width: 768px) {
+    .section-start {
+        border-radius: 0;
+        height: 650px;
+    }
+
+    .section-start-title {
+        font-size: 32px;
+
+    }
+    .margincenter{
+        transform: scale(0.5);
+
+    }
+
+    .section-start-info {
+        padding: 33px 0;
+        font-size: 23px;
+
+    }
+
+    .section-how-we-work {
+        display: flex;
+        flex-direction: column;
+        padding: 350px 0 162px 0;
+    }
+    .section-how-we-work-card-title {
+        font-size: 25px;
+
+    }
+    .section-how-we-work-card-info {
+        font-size: 16px;
+    }
+    .content {
+        display: flex;
+       flex-direction: column-reverse;
+        align-items: center;
+    }
+    .context-logo {
+        font-size: 24px;
+    }
+    .title1 {
+        font-size: 24px;
+    }
+    .content-info1 {
+        font-size: 18px;
+    }
+    .info-player {
+
+        margin-top: 0;
+        gap: 30px;
+        padding-left: 15px;
+
+    }
+    .downloaded {
+        font-size: 20px;
+    }
+
+    .downloaded-info {
+        font-size: 18px;
+    }
+    .answers-logo {
+        font-size: 24px;
+    }
+    .container1 {
+
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .container1-block {
+
+        padding: 15px 35px;
+    }
+    .circular-menu {
+        width: 49px;
+
+    }
+    .container1-block1-logo {
+font-size: 24px;
+    }
+    .container1-block1-text {
+
+        font-size: 18px;
+
+    }
+    .testimonial {
+        border-radius: 0;
+        gap: 30px;
+        padding: 80px;
+    }
+    .testimonial-text {
+        font-size: 24px;
+    }
+    .comment-player-name {
+    font-size: 24px;
+    }
+    .comment-player-work {
+        font-size: 18px;
+    }
+    .comment-text {
+    font-size: 18px;
+    }
+    .registration-logo {
+
+        font-size: 24px;
+    }
+    .registration-main {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .registration-footer-text {
+        font-size: 18px;
+    }
+    .toggle {
+        height: 45px;
+        width: 100px;
+    }
+    .pricing {
+        padding: 15px;
+        gap: 30px;
+    }
+    .pricing-logo {
+        font-size: 24px;
+    }
+    .choice-pricing {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .email {
+        border-radius: 0;
+        flex-direction: column;
+
+    }
+    .email-text-logo {
+        font-size: 24px;
+    }
+    .creat-card-logo-name{
+        font-size: 24px;
+    }
+    .email-button {
+        padding: 15px 25px;
+    }
+    .registration-container-email input {
+width: 150px;
+
+    }
+    .footer {
+
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        gap: 0;
+    }
+    .footer-menu {
+    flex-wrap: wrap;
+    }
+    .footer-menu-logo {
+
+        font-size: 24px;
+    }
+    .footer-menu-text {
+        color: #4E4E4E;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 198.5%;
+        max-width: 230px;
+    }
+    .footer-line {
+        width: 0;
+        height: 0;
+    }
+}

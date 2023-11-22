@@ -57,7 +57,14 @@
 .row {
     flex-direction: row;
 }
+.margincenter{
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: fit-content;
+    transform: scale(0.7);
 
+}
 .between {
     justify-content: space-between;
 }

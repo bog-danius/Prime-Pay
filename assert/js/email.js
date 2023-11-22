@@ -7,7 +7,7 @@ class email extends HTMLElement{
                     class="creat-card-logo-name">finances today</span>
             </p>
             <div class="email-reg">
-                <div class="registration-container">
+                <div class="registration-container-email">
                     <input class="registration-password" id="emailuser" name="username" required type="text" placeholder="Enter your email">
                 </div>
                 <button class="email-button">Subscribe</button>
