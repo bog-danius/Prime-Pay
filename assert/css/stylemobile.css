@@ -247,9 +247,11 @@
     .rating {
         font-size: 30px;
     }
-    .answers{
+
+    .answers {
         margin: auto;
     }
+
     .for-phone {
         font-size: 18px;
     }
@@ -330,10 +332,12 @@
         display: block;
         cursor: pointer;
     }
-    .header{
+
+    .header {
         display: none;
     }
-    .content-bg-fon{
-      width: 100%;
+
+    .content-bg-fon {
+        width: 100%;
     }
 }
