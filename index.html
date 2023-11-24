@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta content="width=device-width,initial-scale=1.0" name="viewport">
     <link href="assert/css/styleguide.css" rel="stylesheet">
     <link href="assert/css/default.css" rel="stylesheet">
     <link href="assert/css/button.css" rel="stylesheet">
@@ -17,6 +17,19 @@
 <body>
 
 <header-labs></header-labs>
+<div class="navbar">
+    <div class="menu-toggle text_xs" id="mobile-menu" >
+        ☰ MENU
+    </div>
+    <ul class="nav-list" id="nav-list">
+        <li><a class="menu-label font-family_inter" href="#">About Us </a></li>
+        <li><a class="menu-label font-family_inter" href="#">Features</a>
+        </li>
+        <li><a class="menu-label font-family_inter" href="#">Pricing</a></li>
+        <li><a class="menu-label font-family_inter" href="#">Blog</a></li>
+    </ul>
+    <p class="text_md text_bold color_primary">PrimePay.</p>
+</div>
 <main>
     <div class="section-start wrap-container wrap-container_lg">
         <p class="section-start-title margin_auto color_primary text_bold">Ready To Launch Your Online <span
@@ -24,7 +37,7 @@
         <p class="section-start-info color_primary text_bold">A simple yet modern solution to showcase your app</p>
         <button class="button_primary button_lg">Get Started</button>
 
-        <widget-phone class="absolute margincenter">
+        <widget-phone class="absolute margincenter1">
             <div class="telephone-logo">
                 <div class="telephone-logo-icon">
                     <img src="assert/img/User.svg">
@@ -611,6 +624,7 @@
 
 
 <script src="assert/js/index.js"></script>
+<script src="assert/js/script-menu.js"></script>
 <script src="./assert/js/footer.js"></script>
 <script src="./assert/js/up.js"></script>
 <script src="./assert/js/email.js"></script>
