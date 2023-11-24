@@ -10,7 +10,7 @@
     }
     .margincenter{
         transform: scale(0.5);
-
+        bottom: 800px;
     }
 
     .section-start-info {
@@ -101,6 +101,7 @@ font-size: 24px;
     }
     .comment-text {
     font-size: 18px;
+        margin: 20px;
     }
     .registration-logo {
 
@@ -173,5 +174,46 @@ width: 150px;
     .footer-line {
         width: 0;
         height: 0;
+    }
+    .container1 {
+
+       align-items: center;
+        justify-content: center;
+    }
+    .awards-star1 {
+flex-direction: column;
+        margin: 150px 0 350px 0;
+
+    }
+    .awards1 {
+      flex-direction: column;
+        margin-top: 750px;
+    }
+    .registration-footer-text {
+      padding: 10px;
+    }
+    .rating{
+        font-size: 30px;
+    }
+    .for-phone {
+    font-size: 18px;
+    }
+    .content-text{
+      margin-top: 50px;
+        padding: 5px;
+    }
+    .creat-card-main {
+       flex-direction: column;
+    }
+    .creat-card-info-logo {
+        max-width: 400px;
+        font-size: 24px;
+    }
+    .creat-card-logo-text {
+
+        max-width: 400px;
+    }
+    .card-info-like-text {
+       font-size: 14px;
     }
 }
