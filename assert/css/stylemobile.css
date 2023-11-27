@@ -198,7 +198,21 @@
         padding: 0;
         gap: 0;
     }
-
+    .blog-logo{
+        border-radius: 0;
+    }
+.email{
+    border-radius: 0;
+}
+.blog-logo-text{
+    font-size: 24px;
+}
+.protected-logo{
+    font-size: 24px;
+}
+.protect-text{
+    font-size: 18px;
+}
     .footer-menu {
         flex-wrap: wrap;
     }
