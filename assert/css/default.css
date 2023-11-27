@@ -252,6 +252,17 @@ a {
 .width {
     width: 100%
 }
+.navbar{
+    display: none;
+}
+.margincenter1{
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: fit-content;
+    transform: scale(0.75);
+
+}
 
 .max_width_2400 {
     max-width: 2400px;
